@@ -1,0 +1,14 @@
+{"TaskName":"icl-dynamics-exp004-attention","State":3}
+{"LastTaskResult":0}
+0
+extracted 16000000 icl acc 0.544 elapsed 59.06
+extracted 16000000 iwl_copy_avail acc 0.9546 elapsed 60.36
+extracted 16000000 flip_icl acc 0.0466 elapsed 61.29
+extracted 20000000 train_eval acc 0.9848 elapsed 62.38
+extracted 20000000 icl acc 0.5408 elapsed 63.38
+extracted 20000000 iwl_copy_avail acc 0.9674 elapsed 64.45
+extracted 20000000 flip_icl acc 0.0286 elapsed 65.72
+completed 65.79
+plots_completed
+NVIDIA GeForce RTX 4070 Laptop GPU, 11 MiB, 0 %
+

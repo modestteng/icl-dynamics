@@ -1,0 +1,5 @@
+{
+  "exit_code": 255,
+  "stdout": "",
+  "stderr": "exec request failed on channel 0\r\n"
+}

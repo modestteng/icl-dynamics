@@ -1,0 +1,78 @@
+{
+  "config_sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+  "eval_sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+  "source_sha256": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3",
+    "visualize_runs.py": "3a34820985ba1a900e0afc2bdd2e5589256e00e89e6fb99522ff6b125a224b5a",
+    "plot_utils.py": "8ffe1094ca6f090244edb24959b993dc3391f0ed4ffaec73b73fa9187a35edf9"
+  },
+  "source_locations": {
+    "main.py": "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/source/main.py",
+    "main_utils.py": "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/source/main_utils.py",
+    "models.py": "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/source/models.py",
+    "samplers.py": "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/source/samplers.py",
+    "opto.py": "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/source/opto.py",
+    "visualize_runs.py": "/home/ubuntu/research/icl-dynamics/exp_004_l1_attention/author_reference/visualize_runs.py",
+    "plot_utils.py": "/home/ubuntu/research/icl-dynamics/exp_004_l1_attention/author_reference/plot_utils.py"
+  },
+  "checkpoint_sha256": {
+    "0": "cc5d646d6dd6f6e0ff5632921904d57577e19ef11df59d1150ca3fb2437646c0",
+    "1000000": "48c045935945c5e600664ed3631470625619dd754d8d9bf04b2eb53a08a715ce",
+    "2000000": "6cc17173f9f19c5a8c565d387b5d1429f4486a889c5e5fd523686107f8524c62",
+    "3000000": "8d7f6ec576e1aa0b34a760bec167209ef1c615cc89068f6f1569512581977311",
+    "4400000": "627972690994b53311e3ced2714afc316f4b64687706d8d37e1b7e47457da7b5",
+    "6000000": "225378c3167b5147b4e24acce0f6ac159345e8f3bcb6cb204c2c61fafd285691",
+    "8000000": "c6a1d4669004061b82a93d2bbcd37694c4a7ce77547d79cd6e2c2147d840dcac",
+    "10000000": "c2cffb84798ece8338139a1dc643a836919ec98f01286ca91a61a64e87657013",
+    "12000000": "8595b197ec19ffc3403af99d2609d73a084cbcfe89ed6d70989d4db7cd30e455",
+    "16000000": "d6661056596b894704d8fb91e781f76df2908f7c662d513b529a03f894d7b8c4",
+    "20000000": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d"
+  },
+  "script_sha256": "2d754b7f054de0b360081cf1272f7a1f96eb54e5b50c32dbb36ab7984b81f696",
+  "protocol_sha256": "fa95b513c7b7c580c90debb67798a56668e12ddef1ab323450fd80c0a68f8931",
+  "stages": [
+    0,
+    1000000,
+    2000000,
+    3000000,
+    4400000,
+    6000000,
+    8000000,
+    10000000,
+    12000000,
+    16000000,
+    20000000
+  ],
+  "evaluators": [
+    "train_eval",
+    "icl",
+    "iwl_copy_avail",
+    "flip_icl"
+  ],
+  "sequences_per_evaluator": 5000,
+  "head_indexing": "zero-based0..7",
+  "tensor_axes": [
+    "layer",
+    "head",
+    "attending_position",
+    "attended_position"
+  ],
+  "token_order": [
+    "x1",
+    "y1",
+    "x2",
+    "y2",
+    "xq"
+  ],
+  "averaging": "equal weight correct_ind0/1, then average two label positions, matching Figure14",
+  "precision": "float32, original default matmul precision",
+  "devices": [
+    "cuda:0"
+  ],
+  "jax": "0.4.26",
+  "equinox": "0.11.4"
+}

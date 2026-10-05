@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 31.54699503,
+  "conditions": 6,
+  "evaluators": 1,
+  "per_sequence_metrics_sha256": "fce9d216952bec8b0c203afb4ebc2b20a6e8cbc652149a448b14b532fffc4c88",
+  "baseline_files_unchanged": true
+}

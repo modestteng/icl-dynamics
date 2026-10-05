@@ -1,0 +1,14 @@
+{
+  "run_eval.py": "0f24e332b2b60284eabdc3efad6e0748c13c448cf79fd8dd40c6ba78776d45ca",
+  "run_task.ps1": "adc7088b05fa03ddd564f67a244bec655e9fa3654ae03de23c7daf5daa5c6560",
+  "status.ps1": "4c34a50200b19d05928d331b92a3eb02a2ccb32185727edc853af90e887abaaf",
+  "expected_baseline.json": "b028d365d584a604c208659fe5c2406a7a12ca867f6b04385de86f464fff212a",
+  "collect.ps1": "765812fa7dafe39b7abee2b9dd43c75b2ce76c83556046a2f4e59ba616a0f383",
+  "run_eval.sh": "59a587911d9c5266d1b97134875c75ce4bcb6f522702a43da56c3bfffef24f8b",
+  "plot_results.py": "43de904b59a822599cee1f46f1b7a3c02e1542491f4bb2c3e770ceae2250b51b",
+  "register_task.ps1": "60fb509fa882d3d91a51c4d570491149f1e2c12b338a231a5c7fda7a5c376950",
+  "protocol.md": "a1be73fed914a3d4d039362f0ddb462732c0613086b82596e968d52d3952992d",
+  "author_reference/figure3b_cells.json": "bb1c409bdfc9f1a78d941bf29acf427317b6d589a7a747a97b9d51d3a58fd61d",
+  "author_reference/forward_metrics.py": "4d98d40d8d236a64293c10d55dfefec0352b9029269bafb5b656901bbf84e94e",
+  "reference_baseline/learning_curves.tsv": "6708535d3782265cb877fc7be02c101a16e9dfaf29b108ad9def094d42fc93ba"
+}

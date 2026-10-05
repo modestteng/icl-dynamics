@@ -1,0 +1,26 @@
+{
+  "archive_sha256": "0cc8bb41fc6f31105593ff4c93e18a87ecffffa997076a5f3abd6f0cbaf43419",
+  "verified_output_files": {
+    "outputs/comparison.tsv": "f7c3d7e4818e69d5f5b0091525149b8e9cc559cb63d71e64d38c938961b07d0f",
+    "outputs/environment.txt": "8e9871728395bd863392e4dcf9a4daae97101233f380dce60dc9286896480be5",
+    "outputs/finished.json": "fe1c2753bef046f04820bac871a4699bb169c0ba89fe090455ec26bc96ee12bd",
+    "outputs/icl_ciwl_ablations.png": "ba48835654950bf0f0d61a8077c4c853805d07a757c637aca42c5d39a81213a5",
+    "outputs/icl_ciwl_ablations.svg": "b5eff4cbf0577b23cf0d45c93988e6d054bd1f882ba37ffb534464e72b2d6696",
+    "outputs/intervention_audit.json": "8e02fc2696f35d10ebbd8b42303609aeb3b42c638829054a8c9af1af945ac66d",
+    "outputs/metrics.tsv": "b8154437560d049f8edc42b45a4f0abf77410c6326f80eaf9fa6441e7910dfa8",
+    "outputs/per_sequence_metrics.h5": "fce9d216952bec8b0c203afb4ebc2b20a6e8cbc652149a448b14b532fffc4c88",
+    "outputs/progress.json": "d82cfe3747abdb553aa08cdb6e11e13a70916f60790de383ca8c3ab5efe21754",
+    "outputs/provenance.json": "24a0b3b2c5d4b9e6b601de9ec24ac402f6b185407800ba8934f7f417e3eed340",
+    "outputs/summary.json": "9c098ff4b5057d8559d7ac32ab9a73e5384f3d288a16aba409448851dcafa541"
+  },
+  "conditions": 6,
+  "evaluator": "original fixed ICL5000",
+  "source_code_protocol_model_data_hashes_verified": true,
+  "same_intervention_flags_versions_precision_batch_key_as_exp005": true,
+  "maximum_preserved_tensor_absolute_change": 0.0,
+  "successful_shell_wall_seconds": 37.0,
+  "baseline_recomputation_difference": {
+    "icl": 0.0
+  },
+  "paired_counts_and_means_consistent": true
+}

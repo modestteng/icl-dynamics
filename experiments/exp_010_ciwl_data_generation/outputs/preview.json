@@ -1,0 +1,170 @@
+[
+  {
+    "sequence_id": 0,
+    "class_idx": [
+      6330,
+      6554,
+      3281
+    ],
+    "exemplar_idx": [
+      7,
+      16,
+      7
+    ],
+    "labels": [
+      3281,
+      6554,
+      3281
+    ],
+    "query_target": 3281,
+    "correct_context_position": 0,
+    "sequence_sha256": "6aefee1c77f973b7b9e66d994a2ad007d254a1a637489b8434044f713f9e4de3"
+  },
+  {
+    "sequence_id": 1,
+    "class_idx": [
+      7114,
+      12144,
+      9114
+    ],
+    "exemplar_idx": [
+      0,
+      0,
+      15
+    ],
+    "labels": [
+      7114,
+      9114,
+      9114
+    ],
+    "query_target": 9114,
+    "correct_context_position": 1,
+    "sequence_sha256": "09feb587e13e754aa015aee77a9f87fd7615b91ed6e9f274dd5cbde8be851fd9"
+  },
+  {
+    "sequence_id": 2,
+    "class_idx": [
+      2588,
+      12001,
+      4004
+    ],
+    "exemplar_idx": [
+      11,
+      18,
+      7
+    ],
+    "labels": [
+      4004,
+      12001,
+      4004
+    ],
+    "query_target": 4004,
+    "correct_context_position": 0,
+    "sequence_sha256": "91059a236a30de93a80be87c6261bf54dd741a26709ed6a78c29ef719f0d5631"
+  },
+  {
+    "sequence_id": 3,
+    "class_idx": [
+      4853,
+      11531,
+      7543
+    ],
+    "exemplar_idx": [
+      2,
+      7,
+      3
+    ],
+    "labels": [
+      4853,
+      7543,
+      7543
+    ],
+    "query_target": 7543,
+    "correct_context_position": 1,
+    "sequence_sha256": "819e656c3b88a3354db76ac3507b061ca96f793a9a1a54e6ba897297e91d3246"
+  },
+  {
+    "sequence_id": 4,
+    "class_idx": [
+      5194,
+      2030,
+      448
+    ],
+    "exemplar_idx": [
+      2,
+      8,
+      8
+    ],
+    "labels": [
+      448,
+      2030,
+      448
+    ],
+    "query_target": 448,
+    "correct_context_position": 0,
+    "sequence_sha256": "06cd947fda132210d9f7992b4cf25fa47602c96a19ba16c761f8fb0e4986c7ea"
+  },
+  {
+    "sequence_id": 5,
+    "class_idx": [
+      10036,
+      4720,
+      5834
+    ],
+    "exemplar_idx": [
+      13,
+      10,
+      6
+    ],
+    "labels": [
+      5834,
+      4720,
+      5834
+    ],
+    "query_target": 5834,
+    "correct_context_position": 0,
+    "sequence_sha256": "315b14c17b090e9e33cb1d3e7b91c2239b018db2304e228b0dfa1db129acb08d"
+  },
+  {
+    "sequence_id": 6,
+    "class_idx": [
+      10486,
+      10037,
+      466
+    ],
+    "exemplar_idx": [
+      3,
+      14,
+      4
+    ],
+    "labels": [
+      10486,
+      466,
+      466
+    ],
+    "query_target": 466,
+    "correct_context_position": 1,
+    "sequence_sha256": "185360c46e04e23fb4c94f22cf271c7fbb2aa7aca5998b1cef224b0267f6aa5a"
+  },
+  {
+    "sequence_id": 7,
+    "class_idx": [
+      4658,
+      11449,
+      7509
+    ],
+    "exemplar_idx": [
+      18,
+      9,
+      17
+    ],
+    "labels": [
+      4658,
+      7509,
+      7509
+    ],
+    "query_target": 7509,
+    "correct_context_position": 1,
+    "sequence_sha256": "417a99af695dff523331e258a270532d534fb5337af3363f4f7df9324daa47f3"
+  }
+]

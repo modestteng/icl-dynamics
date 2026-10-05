@@ -1,0 +1,26 @@
+{
+  "torch": "2.2.2+cu121",
+  "torchvision": "0.17.2+cu121",
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "batch_size": 64,
+  "num_workers": 2,
+  "precision": "float32",
+  "feature_shape": [
+    12984,
+    20,
+    512
+  ],
+  "index_adapter": "(original_class*20+exemplar)*8+augmentation",
+  "author_source_sha256": {
+    "omniglot_dataset.py": "da47f3a0fb47d268376b946e13706ef9be368dfe1f6b7eff1eae4225892a30c9",
+    "omni_features_extract.py": "44c2cbfdb0fa8442efbcae2b02bf5a1253960c0c13656b147db015c5f52e0073"
+  },
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "raw_archive_sha256": {
+    "images_background.zip": "ad41ab679c8b5d90b271ef46be6987cc81211774a695c29dcc5367b2b26ee640",
+    "images_evaluation.zip": "1f61a8f3366785b057fc117d9228e78a16e3d976c8953b2a10fcc74cf0609cee"
+  },
+  "class_selection": "author public script: first 1600 original classes in each augmentation; historical random selection unavailable",
+  "cuda_matmul_allow_tf32": false,
+  "cudnn_allow_tf32": true
+}

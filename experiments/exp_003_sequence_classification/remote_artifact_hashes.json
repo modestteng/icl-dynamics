@@ -1,0 +1,53 @@
+[
+  {
+    "bytes": 8804,
+    "name": "validation.json",
+    "sha256": "36848d60e814f626ec73f3d45d065b086c917202afcb743adc89ecaa25f5c849"
+  },
+  {
+    "bytes": 2149,
+    "name": "classification_summary.json",
+    "sha256": "a73665c7b3e98fc31978fe07bb831dab00f93c0ebe4789c1bb76ab4d3031ad9e"
+  },
+  {
+    "bytes": 29432,
+    "name": "llm_review_samples.json",
+    "sha256": "934824fe1addc8af330ddefdc8e88806ae9ee24d49040ed502286ddf035664e7"
+  },
+  {
+    "bytes": 1743,
+    "name": "score_provenance.json",
+    "sha256": "ee57e7ea074fd920f40b33683f22a95138330c03453bfdd3fea6da1d661e621f"
+  },
+  {
+    "bytes": 133,
+    "name": "progress.json",
+    "sha256": "08ad0979e9337fb70847c1e0a5a8b437ccdc92968dc57b39ee84667c0965e5c3"
+  },
+  {
+    "bytes": 14304,
+    "name": "final_audit.json",
+    "sha256": "42f87d3d056eff9fe7f4df4b0cba6c6f3174bdbc5592d9530998e9cc41ee43d7"
+  },
+  {
+    "bytes": 309063,
+    "name": "heldout_metrics.npz",
+    "sha256": "ebbd3ebf6435605f2f7690fea091de7d4903ea331cf03cb1d173d65aaa79141a"
+  },
+  {
+    "bytes": 280,
+    "name": "final_audit.log",
+    "sha256": "d7b8b56f40eb84039deed54b4257dda48ed2d3ff641b7a9c6591d64c513b11ac"
+  },
+  {
+    "bytes": 2926,
+    "name": "review_decision.json",
+    "sha256": "b82a5a3ffd2a0af2fda0ba47d5b0c2f4548373a42d8a74174a6c64f3be1c8f29"
+  },
+  {
+    "bytes": 6182,
+    "name": "full_review_audit.json",
+    "sha256": "2df4f0ee31364c219b37afdb3bcd8d56567e55490742e7991e6ebcc0f6570a27"
+  }
+]
+

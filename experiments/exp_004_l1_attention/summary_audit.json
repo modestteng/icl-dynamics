@@ -1,0 +1,66 @@
+{
+  "comparisons": 44,
+  "exact_matches": 36,
+  "max_behavior_accuracy_difference": 0.000200000000000089,
+  "differences": [
+    {
+      "stage": 1000000,
+      "evaluator": "train_eval",
+      "recomputed": 0.5498,
+      "original": 0.5496,
+      "difference": 0.00019999999999997797
+    },
+    {
+      "stage": 2000000,
+      "evaluator": "icl",
+      "recomputed": 0.505,
+      "original": 0.5048,
+      "difference": 0.00019999999999997797
+    },
+    {
+      "stage": 3000000,
+      "evaluator": "train_eval",
+      "recomputed": 0.581,
+      "original": 0.5808,
+      "difference": 0.00019999999999997797
+    },
+    {
+      "stage": 3000000,
+      "evaluator": "icl",
+      "recomputed": 0.5508,
+      "original": 0.551,
+      "difference": -0.000200000000000089
+    },
+    {
+      "stage": 3000000,
+      "evaluator": "iwl_copy_avail",
+      "recomputed": 0.5514,
+      "original": 0.5516,
+      "difference": -0.00019999999999997797
+    },
+    {
+      "stage": 3000000,
+      "evaluator": "flip_icl",
+      "recomputed": 0.4822,
+      "original": 0.482,
+      "difference": 0.00020000000000003348
+    },
+    {
+      "stage": 4400000,
+      "evaluator": "flip_icl",
+      "recomputed": 0.6738,
+      "original": 0.674,
+      "difference": -0.000200000000000089
+    },
+    {
+      "stage": 6000000,
+      "evaluator": "flip_icl",
+      "recomputed": 0.4584,
+      "original": 0.4582,
+      "difference": 0.00019999999999997797
+    }
+  ],
+  "description": "8 of44 comparisons differ by one correct prediction per5000 sequences. Cause untested; different compiled author visualization and original evaluation paths are a possible numerical source, not a verified diagnosis. Original logged metrics remain authoritative for baseline behavior.",
+  "fixed_sequences_per_evaluator": 5000,
+  "row_sum_checks_passed": true
+}

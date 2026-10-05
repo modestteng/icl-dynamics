@@ -1,0 +1,27 @@
+WARNING: Graft out does not support carrying over opto. If the model being used to graft out relied on opto, those manipulations will *not* be applied.
+Opto being used...
+evaluated graft/00000000000/train_eval acc 0.572 elapsed 14.29
+evaluated graft/00000000000/icl acc 0.506 elapsed 14.38
+evaluated graft/00000000000/iwl_copy_avail acc 0.5522 elapsed 14.48
+evaluated graft/00000000000/flip_icl acc 0.439 elapsed 14.59
+evaluated graft/00002000000/train_eval acc 0.5818 elapsed 14.84
+evaluated graft/00002000000/icl acc 0.5178 elapsed 14.93
+evaluated graft/00002000000/iwl_copy_avail acc 0.5566 elapsed 15.03
+evaluated graft/00002000000/flip_icl acc 0.467 elapsed 15.13
+evaluated graft/00004400000/train_eval acc 0.8314 elapsed 15.36
+evaluated graft/00004400000/icl acc 0.745 elapsed 15.45
+evaluated graft/00004400000/iwl_copy_avail acc 0.6104 elapsed 15.55
+evaluated graft/00004400000/flip_icl acc 0.6448 elapsed 15.65
+evaluated graft/00008000000/train_eval acc 0.9504 elapsed 15.88
+evaluated graft/00008000000/icl acc 0.5606 elapsed 15.98
+evaluated graft/00008000000/iwl_copy_avail acc 0.8516 elapsed 16.07
+evaluated graft/00008000000/flip_icl acc 0.221 elapsed 16.17
+evaluated graft/00020000000/train_eval acc 0.9848 elapsed 16.42
+evaluated graft/00020000000/icl acc 0.5408 elapsed 16.51
+evaluated graft/00020000000/iwl_copy_avail acc 0.9674 elapsed 16.6
+evaluated graft/00020000000/flip_icl acc 0.0286 elapsed 16.7
+evaluated native20m/train_eval acc 0.9848 elapsed 18.77
+evaluated native20m/icl acc 0.5408 elapsed 18.87
+evaluated native20m/iwl_copy_avail acc 0.9674 elapsed 18.97
+evaluated native20m/flip_icl acc 0.0286 elapsed 19.07
+completed 19.37

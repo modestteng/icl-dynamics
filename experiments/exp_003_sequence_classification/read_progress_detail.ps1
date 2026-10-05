@@ -1,0 +1,2 @@
+$ErrorActionPreference='Stop'
+& 'C:\Program Files\WSL\wsl.exe' -d Ubuntu-22.04 --exec /bin/bash -lc 'cd ~/research/icl-dynamics/exp_003_sequence_classification; tail -10 logs/score_and_validate.log; cat pilot/progress.json 2>/dev/null; cat pilot/numerical_audit_2000000.json 2>/dev/null; ps -eo pid,etime,pcpu,rss,args | grep "[p]ython -u score_and_validate.py"; nvidia-smi --query-gpu=name,memory.used,utilization.gpu --format=csv,noheader'

@@ -1,0 +1,5 @@
+{
+  "exit_code": 255,
+  "stdout": "",
+  "stderr": "ssh: connect to host 100.74.236.7 port 22: Operation timed out\r\n"
+}

@@ -1,0 +1,41 @@
+data shape 0: 12984 class split: [12800, 0, 184]
+Identity verified; invoking author sampler
+Author reference and structural checks passed
+{
+  "status": "completed_data_generation_and_audit",
+  "sequences": 5000,
+  "seed": 20261004,
+  "feature_shape": [
+    5000,
+    3,
+    512
+  ],
+  "label_shape": [
+    5000,
+    3
+  ],
+  "author_reference_exact_match": true,
+  "source_feature_exact_match": true,
+  "all_three_sample_classes_distinct": true,
+  "query_class_absent_from_context": true,
+  "query_fixed_label_exactly_once_in_context": true,
+  "unmodified_other_context_label": true,
+  "internal_duplicate_complete_sequences": 0,
+  "overlap_with_original_evaluators": {
+    "flip_icl": 0,
+    "icl": 0,
+    "iwl_copy_avail": 0,
+    "pure_iwl": 0,
+    "train_eval": 0
+  },
+  "correct_context_position_counts": [
+    2478,
+    2522
+  ],
+  "distinct_query_classes": 4097,
+  "all_features_finite": true,
+  "source_config_feature_eval_unchanged": true,
+  "model_training_performed": false,
+  "ciwl_improvement_measured": false,
+  "execution_seconds": 7.6989518220000015
+}

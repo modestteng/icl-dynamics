@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 19.363504002,
+  "graft_stages": 5,
+  "evaluators": 4,
+  "graft_evaluation_sequences": 100000,
+  "native_control_sequences": 20000,
+  "per_sequence_metrics_sha256": "5ba0c0cfb660b841a1daaaa628486306c96265436f490af82ff398f58f80b047",
+  "baseline_inputs_unchanged": true
+}

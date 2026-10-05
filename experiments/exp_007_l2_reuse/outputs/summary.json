@@ -1,0 +1,321 @@
+{
+  "stages": [
+    0,
+    2000000,
+    4400000,
+    8000000,
+    20000000
+  ],
+  "results": {
+    "0": {
+      "train_eval": {
+        "in_context_acc": 0.572,
+        "in_context_loss": 1.632144494458992,
+        "in_context_prob": 0.5664965310283142,
+        "loss": 13.642148383665084,
+        "correct_count": 2860,
+        "count": 5000
+      },
+      "icl": {
+        "in_context_acc": 0.506,
+        "in_context_loss": 1.1364779459104757,
+        "in_context_prob": 0.5064441305764602,
+        "loss": 12.412981978416443,
+        "correct_count": 2530,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.5522,
+        "in_context_loss": 1.698860132421537,
+        "in_context_prob": 0.548014482208572,
+        "loss": 13.717394073104858,
+        "correct_count": 2761,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.439,
+        "in_context_loss": 2.299587350515839,
+        "in_context_prob": 0.4444325708206801,
+        "loss": 14.360296798038483,
+        "correct_count": 2195,
+        "count": 5000
+      }
+    },
+    "2000000": {
+      "train_eval": {
+        "in_context_acc": 0.5818,
+        "in_context_loss": 1.4699962945639755,
+        "in_context_prob": 0.5745342225947013,
+        "loss": 4.888569213217311,
+        "correct_count": 2909,
+        "count": 5000
+      },
+      "icl": {
+        "in_context_acc": 0.5178,
+        "in_context_loss": 1.2100287102887406,
+        "in_context_prob": 0.5146787975684624,
+        "loss": 5.016193219304085,
+        "correct_count": 2589,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.5566,
+        "in_context_loss": 1.547115428941715,
+        "in_context_prob": 0.5517542351604596,
+        "loss": 4.999671545163542,
+        "correct_count": 2783,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.467,
+        "in_context_loss": 2.015196844649769,
+        "in_context_prob": 0.4669756693168226,
+        "loss": 5.469692199219018,
+        "correct_count": 2335,
+        "count": 5000
+      }
+    },
+    "4400000": {
+      "train_eval": {
+        "in_context_acc": 0.8314,
+        "in_context_loss": 0.9378133632700348,
+        "in_context_prob": 0.8309157976407985,
+        "loss": 1.363316316889529,
+        "correct_count": 4157,
+        "count": 5000
+      },
+      "icl": {
+        "in_context_acc": 0.745,
+        "in_context_loss": 1.32072584466132,
+        "in_context_prob": 0.7431621184562437,
+        "loss": 3.049051061326824,
+        "correct_count": 3725,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.6104,
+        "in_context_loss": 3.8423503336470612,
+        "in_context_prob": 0.6105280563676135,
+        "loss": 4.5060857577203075,
+        "correct_count": 3052,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.6448,
+        "in_context_loss": 2.38565787538604,
+        "in_context_prob": 0.6444008364871759,
+        "loss": 3.07431509265597,
+        "correct_count": 3224,
+        "count": 5000
+      }
+    },
+    "8000000": {
+      "train_eval": {
+        "in_context_acc": 0.9504,
+        "in_context_loss": 0.1934793532331857,
+        "in_context_prob": 0.9459803717684859,
+        "loss": 0.2805352624645544,
+        "correct_count": 4752,
+        "count": 5000
+      },
+      "icl": {
+        "in_context_acc": 0.5606,
+        "in_context_loss": 5.719224333536569,
+        "in_context_prob": 0.5608243688518312,
+        "loss": 6.419881670324272,
+        "correct_count": 2803,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.8516,
+        "in_context_loss": 0.9973626720386936,
+        "in_context_prob": 0.8491522131214009,
+        "loss": 1.158957725207368,
+        "correct_count": 4258,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.221,
+        "in_context_loss": 7.590473111882595,
+        "in_context_prob": 0.22656940054273036,
+        "loss": 7.88193728017027,
+        "correct_count": 1105,
+        "count": 5000
+      }
+    },
+    "20000000": {
+      "train_eval": {
+        "in_context_acc": 0.9848,
+        "in_context_loss": 0.0402737752360825,
+        "in_context_prob": 0.9818264651720994,
+        "loss": 0.0646694603534881,
+        "correct_count": 4924,
+        "count": 5000
+      },
+      "icl": {
+        "in_context_acc": 0.5408,
+        "in_context_loss": 5.0303404284593,
+        "in_context_prob": 0.5397577864557687,
+        "loss": 6.435439058718691,
+        "correct_count": 2704,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.9674,
+        "in_context_loss": 0.12626175272474752,
+        "in_context_prob": 0.9647988663346249,
+        "loss": 0.17535619632581365,
+        "correct_count": 4837,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.0286,
+        "in_context_loss": 12.582475385152334,
+        "in_context_prob": 0.03356597462701643,
+        "loss": 12.643237010061927,
+        "correct_count": 143,
+        "count": 5000
+      }
+    }
+  },
+  "original_baseline": {
+    "0": {
+      "train_eval": 0.5222,
+      "icl": 0.499,
+      "iwl_copy_avail": 0.5066,
+      "flip_icl": 0.4942
+    },
+    "2000000": {
+      "train_eval": 0.5472,
+      "icl": 0.5048,
+      "iwl_copy_avail": 0.533,
+      "flip_icl": 0.4534
+    },
+    "4400000": {
+      "train_eval": 0.8268,
+      "icl": 0.7698,
+      "iwl_copy_avail": 0.5908,
+      "flip_icl": 0.674
+    },
+    "8000000": {
+      "train_eval": 0.947,
+      "icl": 0.565,
+      "iwl_copy_avail": 0.8438,
+      "flip_icl": 0.2372
+    },
+    "20000000": {
+      "train_eval": 0.9848,
+      "icl": 0.5408,
+      "iwl_copy_avail": 0.9674,
+      "flip_icl": 0.0286
+    }
+  },
+  "graft_minus_original": {
+    "0": {
+      "train_eval": 0.049799999999999955,
+      "icl": 0.007000000000000006,
+      "iwl_copy_avail": 0.045599999999999974,
+      "flip_icl": -0.05519999999999997
+    },
+    "2000000": {
+      "train_eval": 0.034599999999999964,
+      "icl": 0.013000000000000012,
+      "iwl_copy_avail": 0.023599999999999954,
+      "flip_icl": 0.013600000000000001
+    },
+    "4400000": {
+      "train_eval": 0.0046000000000000485,
+      "icl": -0.024800000000000044,
+      "iwl_copy_avail": 0.019600000000000062,
+      "flip_icl": -0.029200000000000004
+    },
+    "8000000": {
+      "train_eval": 0.0034000000000000696,
+      "icl": -0.0043999999999999595,
+      "iwl_copy_avail": 0.007800000000000029,
+      "flip_icl": -0.016199999999999992
+    },
+    "20000000": {
+      "train_eval": 0.0,
+      "icl": 0.0,
+      "iwl_copy_avail": 0.0,
+      "flip_icl": 0.0
+    }
+  },
+  "native20m_control": {
+    "train_eval": {
+      "in_context_acc": 0.9848,
+      "in_context_loss": 0.0402737752360825,
+      "in_context_prob": 0.9818264651720994,
+      "loss": 0.0646694603534881,
+      "correct_count": 4924,
+      "count": 5000
+    },
+    "icl": {
+      "in_context_acc": 0.5408,
+      "in_context_loss": 5.0303404284593,
+      "in_context_prob": 0.5397577864557687,
+      "loss": 6.435439058718691,
+      "correct_count": 2704,
+      "count": 5000
+    },
+    "iwl_copy_avail": {
+      "in_context_acc": 0.9674,
+      "in_context_loss": 0.12626175272474752,
+      "in_context_prob": 0.9647988663346249,
+      "loss": 0.17535619632581365,
+      "correct_count": 4837,
+      "count": 5000
+    },
+    "flip_icl": {
+      "in_context_acc": 0.0286,
+      "in_context_loss": 12.582475385152334,
+      "in_context_prob": 0.03356597462701643,
+      "loss": 12.643237010061927,
+      "correct_count": 143,
+      "count": 5000
+    }
+  },
+  "self_graft_identity": {
+    "train_eval": {
+      "native20m": 0.9848,
+      "original_logged": 0.9848,
+      "graft20m": 0.9848,
+      "individual_prediction_disagreements": 0,
+      "native_minus_logged": 0.0,
+      "graft_minus_native": 0.0
+    },
+    "icl": {
+      "native20m": 0.5408,
+      "original_logged": 0.5408,
+      "graft20m": 0.5408,
+      "individual_prediction_disagreements": 0,
+      "native_minus_logged": 0.0,
+      "graft_minus_native": 0.0
+    },
+    "iwl_copy_avail": {
+      "native20m": 0.9674,
+      "original_logged": 0.9674,
+      "graft20m": 0.9674,
+      "individual_prediction_disagreements": 0,
+      "native_minus_logged": 0.0,
+      "graft_minus_native": 0.0
+    },
+    "flip_icl": {
+      "native20m": 0.0286,
+      "original_logged": 0.0286,
+      "graft20m": 0.0286,
+      "individual_prediction_disagreements": 0,
+      "native_minus_logged": 0.0,
+      "graft_minus_native": 0.0
+    }
+  },
+  "descriptive_checks": {
+    "icl_above_chance_at_original_peak": true,
+    "icl_lower_at_20m_than_4_4m": true,
+    "ciwl_higher_at_20m_than_4_4m": true
+  },
+  "scope": "Five prespecified representative checkpoints, not a dense full-trajectory reproduction",
+  "elapsed_seconds": 19.362156575,
+  "no_training": true
+}

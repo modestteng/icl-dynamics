@@ -1,0 +1,41 @@
+{
+  "status": "interim observed behavior; full 64M run still active",
+  "cutoff_sequences": 11000000,
+  "evaluation_points": 111,
+  "log_segments": [
+    "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main/log.h5",
+    "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main_resume_00002950016/log.h5"
+  ],
+  "metrics": {
+    "train_eval": {
+      "initial": 0.5222,
+      "latest": 0.9666,
+      "maximum": 0.9666,
+      "maximum_at_sequences": 11000000
+    },
+    "icl": {
+      "initial": 0.499,
+      "latest": 0.541,
+      "maximum": 0.7698,
+      "maximum_at_sequences": 4400000
+    },
+    "iwl_copy_avail": {
+      "initial": 0.5066,
+      "latest": 0.9118,
+      "maximum": 0.9118,
+      "maximum_at_sequences": 11000000
+    },
+    "flip_icl": {
+      "initial": 0.4942,
+      "latest": 0.1062,
+      "maximum": 0.6868,
+      "maximum_at_sequences": 4100000
+    },
+    "pure_iwl": {
+      "initial": 0.0006,
+      "latest": 0.0,
+      "maximum": 0.0006,
+      "maximum_at_sequences": 0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "code": 0,
+  "stdout": "{\"task\":\"icl-dynamics-exp002-main\",\"state\":\"Running\",\"files\":[{\"Name\":\"pipeline_task.started\",\"LastWriteTime\":\"2026-10-02T23:51:43.0844279-07:00\"},{\"Name\":\"pipeline_task.wsl_pid\",\"LastWriteTime\":\"2026-10-02T23:51:43.7881298-07:00\"}],\"lastResult\":267009}\r\n",
+  "stderr": ""
+}

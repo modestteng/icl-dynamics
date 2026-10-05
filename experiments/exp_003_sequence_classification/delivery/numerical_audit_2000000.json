@@ -1,0 +1,13 @@
+{
+  "jvp_equals_reverse_gradient": true,
+  "batch_equals_single": true,
+  "max_errors": [
+    2.0265579223632812e-06,
+    9.059906005859375e-06,
+    6.198883056640625e-06
+  ],
+  "direction_norms": [
+    29.887331008911133,
+    2.7241992950439453
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "repositories": {
+    "devinterp": {
+      "verified_utc": "2026-10-05T05:48:08.842824+00:00",
+      "fork_method": "GitHub UI via computer control; all branches selected",
+      "upstream": "https://github.com/timaeus-research/devinterp.git",
+      "origin": "https://github.com/modestteng/devinterp.git",
+      "local_path": "/Users/ai/Desktop/icl-dynamics/devinterp",
+      "branch": "main",
+      "commit": "fbbf4c54e1f6ee46acb149f004df261fb05055c6",
+      "version": "2.0.1",
+      "full_history": true,
+      "remote_branches": 35,
+      "tags": 12,
+      "tracked_files": 71,
+      "clean_worktree": true,
+      "algorithm_file_sha256": {
+        "src/devinterp/slt/bif.py": "09c681a245929cadeba24a70ee51402367d4162a538d1d018795a89b4ccbb9bf",
+        "src/devinterp/slt/sampling.py": "e84d730346ae52ac62613eebacd50f57805be5a309d6c8b9a08a57a8da8acfd5",
+        "src/devinterp/optim/sgmcmc.py": "0b4221eef189c794b89f6a025b368d8c01cd0952f15424864fd81e2dbf0c03aa"
+      },
+      "upstream_documentation": "https://devinterp.timaeus.co/",
+      "scope": "official BIF/SGMCMC reference library; not verified as the complete original Influence Dynamics experiment repository",
+      "environment_installed": false,
+      "experiments_run": false
+    }
+  }
+}

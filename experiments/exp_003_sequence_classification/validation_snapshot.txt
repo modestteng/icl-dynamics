@@ -1,0 +1,307 @@
+{
+  "initial": {
+    "flip_icl": {
+      "loss": 3.3307948112487793,
+      "acc": 0.6272,
+      "in_context_acc": 0.6656
+    },
+    "icl": {
+      "loss": 2.790743827819824,
+      "acc": 0.7396,
+      "in_context_acc": 0.7664
+    },
+    "iwl_copy_avail": {
+      "loss": 4.32811975479126,
+      "acc": 0.546,
+      "in_context_acc": 0.5932
+    },
+    "pure_iwl": {
+      "loss": 11.37665843963623,
+      "acc": 0.0,
+      "in_context_acc": 0.0
+    },
+    "train_eval": {
+      "loss": 2.2853944301605225,
+      "acc": 0.804,
+      "in_context_acc": 0.8304
+    }
+  },
+  "runs": [
+    {
+      "seed": 103,
+      "group": "icl",
+      "after": {
+        "flip_icl": {
+          "loss": 3.5361125469207764,
+          "acc": 0.602,
+          "in_context_acc": 0.6564
+        },
+        "icl": {
+          "loss": 2.719512462615967,
+          "acc": 0.746,
+          "in_context_acc": 0.7584
+        },
+        "iwl_copy_avail": {
+          "loss": 4.6948747634887695,
+          "acc": 0.5188,
+          "in_context_acc": 0.602
+        },
+        "pure_iwl": {
+          "loss": 11.324706077575684,
+          "acc": 0.0,
+          "in_context_acc": 0.0
+        },
+        "train_eval": {
+          "loss": 2.623192071914673,
+          "acc": 0.7548,
+          "in_context_acc": 0.79
+        }
+      },
+      "loss_reduction": {
+        "flip_icl": -0.20531773567199707,
+        "icl": 0.07123136520385742,
+        "iwl_copy_avail": -0.36675500869750977,
+        "pure_iwl": 0.051952362060546875,
+        "train_eval": -0.3377976417541504
+      },
+      "exact_match_fraction": 0.055908203125,
+      "unique_query_classes": 3324,
+      "checkpoint_sha256": "b708968915a36ad721bc1ca1b338c77816adce04265cf6b32495ddc72f3ac48a",
+      "checkpoint_semantics": "selected-data branch; train_data_seed remains original anchor; resume using validation_ids.npz"
+    },
+    {
+      "seed": 103,
+      "group": "ciwl",
+      "after": {
+        "flip_icl": {
+          "loss": 3.7261881828308105,
+          "acc": 0.5664,
+          "in_context_acc": 0.6132
+        },
+        "icl": {
+          "loss": 3.7730202674865723,
+          "acc": 0.606,
+          "in_context_acc": 0.664
+        },
+        "iwl_copy_avail": {
+          "loss": 4.276269435882568,
+          "acc": 0.5448,
+          "in_context_acc": 0.588
+        },
+        "pure_iwl": {
+          "loss": 11.395663261413574,
+          "acc": 0.0,
+          "in_context_acc": 0.0
+        },
+        "train_eval": {
+          "loss": 2.6153085231781006,
+          "acc": 0.7492,
+          "in_context_acc": 0.7756
+        }
+      },
+      "loss_reduction": {
+        "flip_icl": -0.39539337158203125,
+        "icl": -0.982276439666748,
+        "iwl_copy_avail": 0.051850318908691406,
+        "pure_iwl": -0.01900482177734375,
+        "train_eval": -0.3299140930175781
+      },
+      "exact_match_fraction": 0.043212890625,
+      "unique_query_classes": 3330,
+      "checkpoint_sha256": "a2ea0a3f7efa18029998ca08173ec518050bde0be776a9bb3259a39f76228c20",
+      "checkpoint_semantics": "selected-data branch; train_data_seed remains original anchor; resume using validation_ids.npz"
+    },
+    {
+      "seed": 103,
+      "group": "random",
+      "after": {
+        "flip_icl": {
+          "loss": 3.334721088409424,
+          "acc": 0.6292,
+          "in_context_acc": 0.6616
+        },
+        "icl": {
+          "loss": 2.804015636444092,
+          "acc": 0.736,
+          "in_context_acc": 0.7612
+        },
+        "iwl_copy_avail": {
+          "loss": 4.300710201263428,
+          "acc": 0.548,
+          "in_context_acc": 0.596
+        },
+        "pure_iwl": {
+          "loss": 11.378925323486328,
+          "acc": 0.0,
+          "in_context_acc": 0.0
+        },
+        "train_eval": {
+          "loss": 2.2733371257781982,
+          "acc": 0.8032,
+          "in_context_acc": 0.8296
+        }
+      },
+      "loss_reduction": {
+        "flip_icl": -0.003926277160644531,
+        "icl": -0.013271808624267578,
+        "iwl_copy_avail": 0.02740955352783203,
+        "pure_iwl": -0.0022668838500976562,
+        "train_eval": 0.012057304382324219
+      },
+      "exact_match_fraction": 0.0537109375,
+      "unique_query_classes": 3512,
+      "checkpoint_sha256": "a6ded0b054094f123343792bd29c1b94ef83695cd45228f796613c612e8db795",
+      "checkpoint_semantics": "selected-data branch; train_data_seed remains original anchor; resume using validation_ids.npz"
+    },
+    {
+      "seed": 104,
+      "group": "icl",
+      "after": {
+        "flip_icl": {
+          "loss": 3.53910231590271,
+          "acc": 0.5996,
+          "in_context_acc": 0.6524
+        },
+        "icl": {
+          "loss": 2.6903457641601562,
+          "acc": 0.75,
+          "in_context_acc": 0.758
+        },
+        "iwl_copy_avail": {
+          "loss": 4.667056083679199,
+          "acc": 0.5204,
+          "in_context_acc": 0.6008
+        },
+        "pure_iwl": {
+          "loss": 11.327495574951172,
+          "acc": 0.0,
+          "in_context_acc": 0.0
+        },
+        "train_eval": {
+          "loss": 2.6295061111450195,
+          "acc": 0.7516,
+          "in_context_acc": 0.7896
+        }
+      },
+      "loss_reduction": {
+        "flip_icl": -0.20830750465393066,
+        "icl": 0.10039806365966797,
+        "iwl_copy_avail": -0.33893632888793945,
+        "pure_iwl": 0.049162864685058594,
+        "train_eval": -0.34411168098449707
+      },
+      "exact_match_fraction": 0.0537109375,
+      "unique_query_classes": 3331,
+      "checkpoint_sha256": "95e1d0253abba3ed89f7fdd0aa9c74940bc970de78f659945059f9d300220915",
+      "checkpoint_semantics": "selected-data branch; train_data_seed remains original anchor; resume using validation_ids.npz"
+    },
+    {
+      "seed": 104,
+      "group": "ciwl",
+      "after": {
+        "flip_icl": {
+          "loss": 3.7615609169006348,
+          "acc": 0.5608,
+          "in_context_acc": 0.608
+        },
+        "icl": {
+          "loss": 3.7943508625030518,
+          "acc": 0.6012,
+          "in_context_acc": 0.6604
+        },
+        "iwl_copy_avail": {
+          "loss": 4.263857364654541,
+          "acc": 0.5468,
+          "in_context_acc": 0.5888
+        },
+        "pure_iwl": {
+          "loss": 11.394680976867676,
+          "acc": 0.0,
+          "in_context_acc": 0.0
+        },
+        "train_eval": {
+          "loss": 2.6520183086395264,
+          "acc": 0.7456,
+          "in_context_acc": 0.7732
+        }
+      },
+      "loss_reduction": {
+        "flip_icl": -0.43076610565185547,
+        "icl": -1.0036070346832275,
+        "iwl_copy_avail": 0.06426239013671875,
+        "pure_iwl": -0.018022537231445312,
+        "train_eval": -0.3666238784790039
+      },
+      "exact_match_fraction": 0.040771484375,
+      "unique_query_classes": 3300,
+      "checkpoint_sha256": "5e635db9093db3f713ab34d9dd154d81f681eede775f048c247b44ba63206336",
+      "checkpoint_semantics": "selected-data branch; train_data_seed remains original anchor; resume using validation_ids.npz"
+    },
+    {
+      "seed": 104,
+      "group": "random",
+      "after": {
+        "flip_icl": {
+          "loss": 3.346083879470825,
+          "acc": 0.628,
+          "in_context_acc": 0.6648
+        },
+        "icl": {
+          "loss": 2.859790325164795,
+          "acc": 0.7292,
+          "in_context_acc": 0.7552
+        },
+        "iwl_copy_avail": {
+          "loss": 4.298030376434326,
+          "acc": 0.5484,
+          "in_context_acc": 0.5896
+        },
+        "pure_iwl": {
+          "loss": 11.3814697265625,
+          "acc": 0.0,
+          "in_context_acc": 0.0
+        },
+        "train_eval": {
+          "loss": 2.27191162109375,
+          "acc": 0.804,
+          "in_context_acc": 0.83
+        }
+      },
+      "loss_reduction": {
+        "flip_icl": -0.015289068222045898,
+        "icl": -0.0690464973449707,
+        "iwl_copy_avail": 0.030089378356933594,
+        "pure_iwl": -0.004811286926269531,
+        "train_eval": 0.013482809066772461
+      },
+      "exact_match_fraction": 0.052490234375,
+      "unique_query_classes": 3522,
+      "checkpoint_sha256": "8aef172846b51d341da381f2b1ce91f5c91f6a0848b59818c75ddf7b3881a044",
+      "checkpoint_semantics": "selected-data branch; train_data_seed remains original anchor; resume using validation_ids.npz"
+    }
+  ],
+  "sequences_per_group": 4096,
+  "selection_seeds": [
+    103,
+    104
+  ],
+  "status": "completed",
+  "scope": "exploratory group-level Adam test, not per-row causal proof",
+  "gate": [
+    {
+      "seed": 103,
+      "icl_advantage": 0.084503173828125,
+      "ciwl_advantage": 0.024440765380859375
+    },
+    {
+      "seed": 104,
+      "icl_advantage": 0.16944456100463867,
+      "ciwl_advantage": 0.034173011779785156
+    }
+  ],
+  "scale_gate_passed": true,
+  "expansion": "not started; review pilot before any 10M scoring",
+  "elapsed_seconds": 1919.498425443
+}
+-rwxrwxrwx 1 ubuntu ubuntu 48M Oct  3 05:28 /mnt/d/research/icl-dynamics/exp_003_sequence_classification/pilot_results.tar.gz
+

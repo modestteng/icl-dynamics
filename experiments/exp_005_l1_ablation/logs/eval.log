@@ -1,0 +1,35 @@
+intervention_audit baseline {'q': {'preserved': True, 'max_abs_change': 0.0}, 'k': {'preserved': True, 'max_abs_change': 0.0}, 'v': {'preserved': True, 'max_abs_change': 0.0}}
+Opto being used...
+intervention_audit preserve_qkv {'q': {'preserved': True, 'max_abs_change': 0.0}, 'k': {'preserved': True, 'max_abs_change': 0.0}, 'v': {'preserved': True, 'max_abs_change': 0.0}}
+Opto being used...
+intervention_audit recompute_k {'q': {'preserved': True, 'max_abs_change': 0.0}, 'k': {'preserved': False, 'max_abs_change': 4.998409271240234}, 'v': {'preserved': True, 'max_abs_change': 0.0}}
+Opto being used...
+intervention_audit recompute_v {'q': {'preserved': True, 'max_abs_change': 0.0}, 'k': {'preserved': True, 'max_abs_change': 0.0}, 'v': {'preserved': False, 'max_abs_change': 4.03834342956543}}
+Opto being used...
+intervention_audit recompute_q {'q': {'preserved': False, 'max_abs_change': 3.303363561630249}, 'k': {'preserved': True, 'max_abs_change': 0.0}, 'v': {'preserved': True, 'max_abs_change': 0.0}}
+Opto being used...
+intervention_audit ablate_l1 {'q': {'preserved': False, 'max_abs_change': 3.3035666942596436}, 'k': {'preserved': False, 'max_abs_change': 4.998739242553711}, 'v': {'preserved': False, 'max_abs_change': 4.037606716156006}}
+evaluated baseline train_eval in_context_acc 0.9848 elapsed 15.08
+evaluated baseline iwl_copy_avail in_context_acc 0.9674 elapsed 15.17
+evaluated baseline flip_icl in_context_acc 0.0286 elapsed 15.25
+Opto being used...
+evaluated preserve_qkv train_eval in_context_acc 0.9832 elapsed 18.72
+evaluated preserve_qkv iwl_copy_avail in_context_acc 0.9676 elapsed 18.85
+evaluated preserve_qkv flip_icl in_context_acc 0.0294 elapsed 18.97
+Opto being used...
+evaluated recompute_k train_eval in_context_acc 0.57 elapsed 22.62
+evaluated recompute_k iwl_copy_avail in_context_acc 0.5716 elapsed 22.93
+evaluated recompute_k flip_icl in_context_acc 0.442 elapsed 23.04
+Opto being used...
+evaluated recompute_v train_eval in_context_acc 0.5798 elapsed 25.77
+evaluated recompute_v iwl_copy_avail in_context_acc 0.578 elapsed 25.89
+evaluated recompute_v flip_icl in_context_acc 0.4226 elapsed 26.01
+Opto being used...
+evaluated recompute_q train_eval in_context_acc 0.9724 elapsed 29.24
+evaluated recompute_q iwl_copy_avail in_context_acc 0.946 elapsed 29.35
+evaluated recompute_q flip_icl in_context_acc 0.0484 elapsed 29.45
+Opto being used...
+evaluated ablate_l1 train_eval in_context_acc 0.558 elapsed 31.6
+evaluated ablate_l1 iwl_copy_avail in_context_acc 0.553 elapsed 31.72
+evaluated ablate_l1 flip_icl in_context_acc 0.4444 elapsed 31.83
+completed 32.02

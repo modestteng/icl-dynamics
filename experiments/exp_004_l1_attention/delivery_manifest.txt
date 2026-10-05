@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 65.77098477199999,
+  "hdf5_sha256": "1c6d1d811a1edcb468cd1fa740e371ea4f32a11a2c3554e3b3af8c4aa1b99f08"
+}
+c1a8be850c707b18dc8d0cfc6f1de6bd6434320e09800624f6cf5e1a5a8d0b37  /mnt/d/research/icl-dynamics/exp_004_l1_attention/attention_results.tar.gz
+-rwxrwxrwx 1 ubuntu ubuntu 17M Oct  4 04:28 /mnt/d/research/icl-dynamics/exp_004_l1_attention/attention_results.tar.gz
+

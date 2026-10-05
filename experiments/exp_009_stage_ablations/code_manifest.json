@@ -1,0 +1,15 @@
+{
+  "plan.json": "3007053e5e602e2c07f7cd37403a52e9bae16e42189fd718fd15ff29cf994361",
+  "run_task.ps1": "f2a944ca26aca12c6b1b651ea44ca150525e4f74190bb1442569b3f65f6b5596",
+  "status.ps1": "a1984c61b18ce8bd65e8389276d683f5489f399ea7a743fd1b0a1cdb2095fe03",
+  "expected_baseline.json": "45f8b27ec6cdba6100b8d38b9d461c7d7b39a44db5f20b46ee87d7fa3e831c3b",
+  "collect.ps1": "21bf8ccae06cb46791ede0ea4a68e352bfbe29953e774eb09592334565321733",
+  "read_results.py": "2b4afa0b953fe9057a735b62a90f4bf1a983b63c597bf3cfd5e7824d271d5251",
+  "run_cli.sh": "c022708e1178bb53564b071fac976e17c12f83e8a3dbe7b052584dff6e339691",
+  "register_task.ps1": "4ca5ceaafa13ae9a6dd0809b874516fb238420b2ba38d4474136abba707f97e8",
+  "protocol.md": "3fd1ec8e14c4076dbac72978a21aa5fcc22c646d0ac1f8696cb2a5631e256e67",
+  "author_reference/visualize_runs.py": "3a34820985ba1a900e0afc2bdd2e5589256e00e89e6fb99522ff6b125a224b5a",
+  "author_reference/plot_utils.py": "8ffe1094ca6f090244edb24959b993dc3391f0ed4ffaec73b73fa9187a35edf9",
+  "reference_exp008/summary.json": "a87f36a7599dc4b5767c6813df274a724edeab007ba037cde604228545280412",
+  "reference_exp008/provenance.json": "c8ed613c8f184d106a662338cefa94e319d4230f82c77e3bfb66d619d783f8e7"
+}

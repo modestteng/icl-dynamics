@@ -1,0 +1,4 @@
+$ErrorActionPreference='Stop'
+Get-ScheduledTask -TaskName 'icl-dynamics-exp003-pilot' -ErrorAction SilentlyContinue | Select-Object TaskName,State | ConvertTo-Json -Compress
+Get-ScheduledTaskInfo -TaskName 'icl-dynamics-exp003-pilot' -ErrorAction SilentlyContinue | Select-Object LastTaskResult,LastRunTime | ConvertTo-Json -Compress
+& 'C:\Program Files\WSL\wsl.exe' -d Ubuntu-22.04 --exec /bin/bash -lc 'cd ~/research/icl-dynamics/exp_003_sequence_classification; cat pilot.stage pilot.exit_code 2>/dev/null || true; tail -5 logs/replay.log 2>/dev/null; tail -8 logs/score_and_validate.log 2>/dev/null; cat pilot/progress.json 2>/dev/null; ps -eo pid,etime,pcpu,rss,args | rg "python -u (replay_indices|score_and_validate)" || true; nvidia-smi --query-gpu=name,memory.used,utilization.gpu --format=csv,noheader'

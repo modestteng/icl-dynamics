@@ -1,0 +1,569 @@
+{
+  "status": "passed_artifact_and_metric_audit",
+  "scores": {
+    "2000000": {
+      "rows": 1000000,
+      "finite": true,
+      "sha256": "d15f679ac8244e26e8d5d47d0b47fecceabf8e2ed1956c7283b252317230fa87"
+    },
+    "4400000": {
+      "rows": 1000000,
+      "finite": true,
+      "sha256": "43a16048645fd1db48bbd4ba3db2307130b185a22876906c14ee79c6743a5b6d"
+    },
+    "8000000": {
+      "rows": 1000000,
+      "finite": true,
+      "sha256": "a4fc2b08937252cb62885a49b8f909eef9bdc8f78a967b5de514d6c9803bcc92"
+    }
+  },
+  "checkpoints": [
+    {
+      "seed": 103,
+      "group": "icl",
+      "model_finite": true,
+      "adam_count": 137628,
+      "heldout_metrics_reproduced": true,
+      "sha256": "b708968915a36ad721bc1ca1b338c77816adce04265cf6b32495ddc72f3ac48a"
+    },
+    {
+      "seed": 103,
+      "group": "ciwl",
+      "model_finite": true,
+      "adam_count": 137628,
+      "heldout_metrics_reproduced": true,
+      "sha256": "a2ea0a3f7efa18029998ca08173ec518050bde0be776a9bb3259a39f76228c20"
+    },
+    {
+      "seed": 103,
+      "group": "random",
+      "model_finite": true,
+      "adam_count": 137628,
+      "heldout_metrics_reproduced": true,
+      "sha256": "a6ded0b054094f123343792bd29c1b94ef83695cd45228f796613c612e8db795"
+    },
+    {
+      "seed": 104,
+      "group": "icl",
+      "model_finite": true,
+      "adam_count": 137628,
+      "heldout_metrics_reproduced": true,
+      "sha256": "95e1d0253abba3ed89f7fdd0aa9c74940bc970de78f659945059f9d300220915"
+    },
+    {
+      "seed": 104,
+      "group": "ciwl",
+      "model_finite": true,
+      "adam_count": 137628,
+      "heldout_metrics_reproduced": true,
+      "sha256": "5e635db9093db3f713ab34d9dd154d81f681eede775f048c247b44ba63206336"
+    },
+    {
+      "seed": 104,
+      "group": "random",
+      "model_finite": true,
+      "adam_count": 137628,
+      "heldout_metrics_reproduced": true,
+      "sha256": "8aef172846b51d341da381f2b1ce91f5c91f6a0848b59818c75ddf7b3881a044"
+    }
+  ],
+  "scoring_provenance_verified": true,
+  "anchor_heldout_metrics_reproduced": true,
+  "paired_effects": [
+    {
+      "seed": 103,
+      "group": "icl",
+      "target": "icl",
+      "comparisons": {
+        "flip_icl": {
+          "loss": {
+            "advantage": -0.2013916085064411,
+            "bootstrap_95_interval": [
+              -0.26194845043554904,
+              -0.1426333002325893
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0052,
+            "bootstrap_95_interval": [
+              -0.0216,
+              0.0116
+            ]
+          },
+          "acc": {
+            "advantage": -0.0272,
+            "bootstrap_95_interval": [
+              -0.0452,
+              -0.0104
+            ]
+          }
+        },
+        "icl": {
+          "loss": {
+            "advantage": 0.08450297962427139,
+            "bootstrap_95_interval": [
+              0.013481583327054977,
+              0.15348243264228104
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0028,
+            "bootstrap_95_interval": [
+              -0.0196,
+              0.0144
+            ]
+          },
+          "acc": {
+            "advantage": 0.01,
+            "bootstrap_95_interval": [
+              -0.0072,
+              0.0276
+            ]
+          }
+        },
+        "iwl_copy_avail": {
+          "loss": {
+            "advantage": -0.39416482740044595,
+            "bootstrap_95_interval": [
+              -0.47167490030780435,
+              -0.3185703065685928
+            ]
+          },
+          "in_context_acc": {
+            "advantage": 0.006,
+            "bootstrap_95_interval": [
+              -0.00921,
+              0.0208
+            ]
+          },
+          "acc": {
+            "advantage": -0.0292,
+            "bootstrap_95_interval": [
+              -0.0448,
+              -0.0132
+            ]
+          }
+        },
+        "pure_iwl": {
+          "loss": {
+            "advantage": 0.05421861114501953,
+            "bootstrap_95_interval": [
+              0.025503457517623902,
+              0.08281012556552886
+            ]
+          },
+          "in_context_acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "train_eval": {
+          "loss": {
+            "advantage": -0.3498551419496536,
+            "bootstrap_95_interval": [
+              -0.4025198791988194,
+              -0.29899072756499057
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0396,
+            "bootstrap_95_interval": [
+              -0.0548,
+              -0.024390000000000057
+            ]
+          },
+          "acc": {
+            "advantage": -0.0484,
+            "bootstrap_95_interval": [
+              -0.0632,
+              -0.0328
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 103,
+      "group": "ciwl",
+      "target": "iwl_copy_avail",
+      "comparisons": {
+        "flip_icl": {
+          "loss": {
+            "advantage": -0.3914673438370228,
+            "bootstrap_95_interval": [
+              -0.4516812851832807,
+              -0.33527187879756093
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0484,
+            "bootstrap_95_interval": [
+              -0.06480999999999999,
+              -0.03239000000000005
+            ]
+          },
+          "acc": {
+            "advantage": -0.0628,
+            "bootstrap_95_interval": [
+              -0.0804,
+              -0.046
+            ]
+          }
+        },
+        "icl": {
+          "loss": {
+            "advantage": -0.9690048644065857,
+            "bootstrap_95_interval": [
+              -1.0324909750241043,
+              -0.9110112309518458
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0972,
+            "bootstrap_95_interval": [
+              -0.11361,
+              -0.0812
+            ]
+          },
+          "acc": {
+            "advantage": -0.13,
+            "bootstrap_95_interval": [
+              -0.1464,
+              -0.11399000000000006
+            ]
+          }
+        },
+        "iwl_copy_avail": {
+          "loss": {
+            "advantage": 0.02444046953320503,
+            "bootstrap_95_interval": [
+              -0.05358954730883241,
+              0.09788195598214863
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.008,
+            "bootstrap_95_interval": [
+              -0.02401,
+              0.007209999999999946
+            ]
+          },
+          "acc": {
+            "advantage": -0.0032,
+            "bootstrap_95_interval": [
+              -0.02,
+              0.013609999999999945
+            ]
+          }
+        },
+        "pure_iwl": {
+          "loss": {
+            "advantage": -0.016738088607788085,
+            "bootstrap_95_interval": [
+              -0.042470817580223086,
+              0.009401242446899404
+            ]
+          },
+          "in_context_acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "train_eval": {
+          "loss": {
+            "advantage": -0.34197161776423457,
+            "bootstrap_95_interval": [
+              -0.3989351663182676,
+              -0.2842685257487
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.054,
+            "bootstrap_95_interval": [
+              -0.0696,
+              -0.0376
+            ]
+          },
+          "acc": {
+            "advantage": -0.054,
+            "bootstrap_95_interval": [
+              -0.06921,
+              -0.0376
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 104,
+      "group": "icl",
+      "target": "icl",
+      "comparisons": {
+        "flip_icl": {
+          "loss": {
+            "advantage": -0.19301846841573717,
+            "bootstrap_95_interval": [
+              -0.2578933905386925,
+              -0.12892522448360924
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0124,
+            "bootstrap_95_interval": [
+              -0.03,
+              0.0052
+            ]
+          },
+          "acc": {
+            "advantage": -0.0284,
+            "bootstrap_95_interval": [
+              -0.0468,
+              -0.0112
+            ]
+          }
+        },
+        "icl": {
+          "loss": {
+            "advantage": 0.16944469026327133,
+            "bootstrap_95_interval": [
+              0.09330260118335486,
+              0.24328968787074085
+            ]
+          },
+          "in_context_acc": {
+            "advantage": 0.0028,
+            "bootstrap_95_interval": [
+              -0.0148,
+              0.020009999999999944
+            ]
+          },
+          "acc": {
+            "advantage": 0.0208,
+            "bootstrap_95_interval": [
+              0.0031900000000000006,
+              0.038409999999999944
+            ]
+          }
+        },
+        "iwl_copy_avail": {
+          "loss": {
+            "advantage": -0.36902617924809455,
+            "bootstrap_95_interval": [
+              -0.44992489239364863,
+              -0.28770997098833334
+            ]
+          },
+          "in_context_acc": {
+            "advantage": 0.0112,
+            "bootstrap_95_interval": [
+              -0.004809999999999999,
+              0.0264
+            ]
+          },
+          "acc": {
+            "advantage": -0.028,
+            "bootstrap_95_interval": [
+              -0.0448,
+              -0.0112
+            ]
+          }
+        },
+        "pure_iwl": {
+          "loss": {
+            "advantage": 0.05397479286193848,
+            "bootstrap_95_interval": [
+              0.02451194901943207,
+              0.08400795116424557
+            ]
+          },
+          "in_context_acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "train_eval": {
+          "loss": {
+            "advantage": -0.35759435035586357,
+            "bootstrap_95_interval": [
+              -0.4164732112137973,
+              -0.30009583003968004
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0404,
+            "bootstrap_95_interval": [
+              -0.056,
+              -0.0252
+            ]
+          },
+          "acc": {
+            "advantage": -0.0524,
+            "bootstrap_95_interval": [
+              -0.068,
+              -0.0364
+            ]
+          }
+        }
+      }
+    },
+    {
+      "seed": 104,
+      "group": "ciwl",
+      "target": "iwl_copy_avail",
+      "comparisons": {
+        "flip_icl": {
+          "loss": {
+            "advantage": -0.41547694276571273,
+            "bootstrap_95_interval": [
+              -0.4748992877337337,
+              -0.35966555758118635
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0568,
+            "bootstrap_95_interval": [
+              -0.07400999999999999,
+              -0.04
+            ]
+          },
+          "acc": {
+            "advantage": -0.0672,
+            "bootstrap_95_interval": [
+              -0.084,
+              -0.051190000000000055
+            ]
+          }
+        },
+        "icl": {
+          "loss": {
+            "advantage": -0.9345603003621101,
+            "bootstrap_95_interval": [
+              -0.9945591310697793,
+              -0.8786292107856274
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0948,
+            "bootstrap_95_interval": [
+              -0.1116,
+              -0.0788
+            ]
+          },
+          "acc": {
+            "advantage": -0.128,
+            "bootstrap_95_interval": [
+              -0.1444,
+              -0.1108
+            ]
+          }
+        },
+        "iwl_copy_avail": {
+          "loss": {
+            "advantage": 0.03417307085394859,
+            "bootstrap_95_interval": [
+              -0.04107115459054708,
+              0.10610802616402489
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0008,
+            "bootstrap_95_interval": [
+              -0.0164,
+              0.0152
+            ]
+          },
+          "acc": {
+            "advantage": -0.0016,
+            "bootstrap_95_interval": [
+              -0.018,
+              0.0152
+            ]
+          }
+        },
+        "pure_iwl": {
+          "loss": {
+            "advantage": -0.01321099624633789,
+            "bootstrap_95_interval": [
+              -0.038966704659461976,
+              0.012491828942298873
+            ]
+          },
+          "in_context_acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          },
+          "acc": {
+            "advantage": 0.0,
+            "bootstrap_95_interval": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "train_eval": {
+          "loss": {
+            "advantage": -0.38010661227107045,
+            "bootstrap_95_interval": [
+              -0.4351211929878593,
+              -0.3214033862064779
+            ]
+          },
+          "in_context_acc": {
+            "advantage": -0.0568,
+            "bootstrap_95_interval": [
+              -0.072,
+              -0.04159000000000005
+            ]
+          },
+          "acc": {
+            "advantage": -0.0584,
+            "bootstrap_95_interval": [
+              -0.07321,
+              -0.0428
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 5103,
+  "interval_scope": "conditional evaluation-sample uncertainty only; two selection seeds, one original training seed",
+  "elapsed_seconds": 30.612597717999996,
+  "devices": [
+    "cuda:0"
+  ]
+}

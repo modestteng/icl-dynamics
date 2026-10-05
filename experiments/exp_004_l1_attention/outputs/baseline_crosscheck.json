@@ -1,0 +1,7 @@
+{
+  "known_checkpoint_sha256_match": true,
+  "max_accuracy_difference": 0.000200000000000089,
+  "comparison_count": 44,
+  "original_eval_batch": 1000,
+  "attention_forward_batch": 32
+}

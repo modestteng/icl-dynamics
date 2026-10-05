@@ -1,0 +1,53 @@
+{
+  "evaluation_points": 30,
+  "last_evaluated_sequences": 2900000,
+  "last_logged_training_sequences": 2900000,
+  "last_logged_loss": 5.390449047088623,
+  "metrics": {
+    "icl": {
+      "metric": "in_context_acc",
+      "initial": 0.499,
+      "latest": 0.5304,
+      "maximum": 0.5304,
+      "maximum_at_sequences": 2900000
+    },
+    "iwl_copy_avail": {
+      "metric": "in_context_acc",
+      "initial": 0.5066,
+      "latest": 0.5514,
+      "maximum": 0.5514,
+      "maximum_at_sequences": 2900000
+    },
+    "flip_icl": {
+      "metric": "in_context_acc",
+      "initial": 0.4942,
+      "latest": 0.4708,
+      "maximum": 0.5016,
+      "maximum_at_sequences": 100000
+    },
+    "pure_iwl": {
+      "metric": "acc",
+      "initial": 0.0006,
+      "latest": 0.0,
+      "maximum": 0.0006,
+      "maximum_at_sequences": 0
+    },
+    "train_eval": {
+      "metric": "in_context_acc",
+      "initial": 0.5222,
+      "latest": 0.5676,
+      "maximum": 0.5676,
+      "maximum_at_sequences": 2900000
+    }
+  },
+  "checkpoint_count": 60,
+  "last_checkpoint": "00002950016.eqx",
+  "total_sequences": 64000000,
+  "feature_manifest": {
+    "omniglot_features_all.h5": "9402da114b108d9b55c1727ad5c7f1a9369ddd6751b00c1432945e4e94f1ac3f",
+    "omniglot_features_reordered.h5": "3df152d4ddddbb022036a01b1664e2118c7ad683eb1ea18148cfc1ea6dcbf41c",
+    "omniglot_features_norotate.h5": "d1dd111c34d3bf17829e3191f0c01c6821e3932c7f3ca6ef9c43b49f7f66af70"
+  },
+  "encoded_vectors": 259680,
+  "encoding_seconds": 715.0458281820002
+}

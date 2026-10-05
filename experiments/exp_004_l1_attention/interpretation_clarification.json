@@ -1,0 +1,14 @@
+{
+  "paper_reference": "Section 5.1; Appendix Figure14, PDF page16",
+  "criterion_from_prepared_protocol": "P_peak>S_peak and S_final>P_final, with P declining and S increasing",
+  "criterion_is_author_requirement": false,
+  "strict_criterion_passes": {
+    "train_eval": 0,
+    "icl": 0,
+    "iwl_copy_avail": 0,
+    "flip_icl": 0
+  },
+  "clarification": "The original Figure14 also shows self attention larger than previous-token attention at the ICL-related bump. Dominance switch is an additional strict descriptive condition, not necessary for previous-token behavior or the author mechanism. Failure of this condition alone does not refute the paper.",
+  "observations": "At sampled checkpoints from1M onward, all heads have S>P. Head0 has a previous-token rebound at4.4M relative to3M, but P at20M is slightly above P at4.4M on all four evaluators. Heads1-7 have lower P and higher S at20M than4.4M.",
+  "limitations": "Only11 checkpoints; no ablation/grafting; cannot establish L1 causal role or L2 computational reuse."
+}

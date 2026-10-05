@@ -1,0 +1,5 @@
+{
+  "code": 1,
+  "stdout": "{\"action\":{\"Execute\":\"c:\\\\program files\\\\powershell\\\\7\\\\pwsh.exe\",\"Arguments\":\"-NonInteractive -NoProfile -WindowStyle Hidden -File \\\"D:\\\\research\\\\icl-dynamics\\\\exp_002_main_reproduction\\\\run_pipeline_task.ps1\\\"\"},\"taskInfo\":{\"LastRunTime\":\"2026-10-02T23:51:51-07:00\",\"LastTaskResult\":3221225786},\"settings\":{\"ExecutionTimeLimit\":\"P7D\",\"StopIfGoingOnBatteries\":false}}\r\n",
+  "stderr": ""
+}

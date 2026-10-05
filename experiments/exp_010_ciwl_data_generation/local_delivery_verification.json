@@ -1,0 +1,25 @@
+{
+  "status": "completed_local_delivery_verified",
+  "verified_utc": "2026-10-04T14:57:06.942153+00:00",
+  "archive_sha256": "87af08fc6ad5e30f0eff6a98ad3682ce219946e6b1a0209d3b24c1f5ad980f27",
+  "archive_bytes": 27262521,
+  "manifest_files_verified": 12,
+  "files": [
+    "outputs/audit.json",
+    "outputs/ciwl_augmentation.h5",
+    "outputs/environment.txt",
+    "outputs/preview.json",
+    "outputs/provenance.json",
+    "outputs/sequences.jsonl",
+    "logs/generation.log",
+    "protocol.md",
+    "plan.json",
+    "expected_baseline.json",
+    "code_manifest.json",
+    "run_generation.sh"
+  ],
+  "remote_task_exit_code": 0,
+  "sequences": 5000,
+  "delivery_method": "SFTP resumed original archive after SSH recovery",
+  "no_data_regeneration": true
+}

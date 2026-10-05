@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "c0030a8e6409e27029de0281a1f6e48023b98e122dada0dc2f077689f138692d",
+  "verified_local_files": [
+    "pilot/pilot_indices.h5",
+    "pilot/scores_00002000000.h5",
+    "pilot/scores_00004400000.h5",
+    "pilot/scores_00008000000.h5",
+    "pilot/validation_ids.npz"
+  ],
+  "checkpoints_preserved_on_windows": [
+    "pilot/validation_103_ciwl.eqx",
+    "pilot/validation_103_icl.eqx",
+    "pilot/validation_103_random.eqx",
+    "pilot/validation_104_ciwl.eqx",
+    "pilot/validation_104_icl.eqx",
+    "pilot/validation_104_random.eqx"
+  ]
+}

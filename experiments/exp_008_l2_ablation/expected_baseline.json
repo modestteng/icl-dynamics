@@ -1,0 +1,24 @@
+{
+  "checkpoint": "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main_resume_00002950016/checkpoints/00020000000.eqx",
+  "checkpoint_sha256": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d",
+  "checkpoint_bytes": 20641192,
+  "iter": 20000000,
+  "adam_updates": 625000,
+  "configuration_sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+  "evaluation_data_sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+  "source_sha256": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+  },
+  "author_reference_sha256": {
+    "visualize_runs.py": "3a34820985ba1a900e0afc2bdd2e5589256e00e89e6fb99522ff6b125a224b5a",
+    "plot_utils.py": "8ffe1094ca6f090244edb24959b993dc3391f0ed4ffaec73b73fa9187a35edf9"
+  },
+  "baseline_logged_accuracy": {
+    "icl": 0.5408,
+    "iwl_copy_avail": 0.9674
+  }
+}

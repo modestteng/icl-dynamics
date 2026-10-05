@@ -1,0 +1,42 @@
+{
+  "status": "observed curves require scientific interpretation; no causal conclusion",
+  "log_segments": [
+    "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main/log.h5",
+    "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main_resume_00002950016/log.h5"
+  ],
+  "evaluation_points": 201,
+  "last_training_sequences": 20000000,
+  "paper_window_points": 200,
+  "metrics": {
+    "train_eval": {
+      "initial": 0.5222,
+      "maximum": 0.9854,
+      "maximum_at_sequences": 19700000,
+      "final": 0.9848
+    },
+    "icl": {
+      "initial": 0.499,
+      "maximum": 0.7698,
+      "maximum_at_sequences": 4400000,
+      "final": 0.5408
+    },
+    "iwl_copy_avail": {
+      "initial": 0.5066,
+      "maximum": 0.9696,
+      "maximum_at_sequences": 19900000,
+      "final": 0.9674
+    },
+    "flip_icl": {
+      "initial": 0.4942,
+      "maximum": 0.6868,
+      "maximum_at_sequences": 4100000,
+      "final": 0.0286
+    },
+    "pure_iwl": {
+      "initial": 0.0006,
+      "maximum": 0.0006,
+      "maximum_at_sequences": 0,
+      "final": 0.0
+    }
+  }
+}

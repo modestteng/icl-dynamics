@@ -1,0 +1,3 @@
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+AssertionError: {'stage': 4000000, 'condition': 'baseline', 'evaluator': 'iwl_copy_avail', 'count': 5000, 'in_context_correct_count': 2838, 'in_context_acc': 0.5676, 'full_correct_count': 2543, 'full_acc': 0.5086, 'in_context_prob': 0.5655481729015307, 'in_context_loss': 2.1157893103085628, 'full_prob': 0.08078767791764557, 'full_loss': 4.677909038311243, 'baseline_log_difference': -0.00039999999999995595}

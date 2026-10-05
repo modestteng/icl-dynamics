@@ -1,0 +1,38 @@
+{
+  "archive_sha256": "1d036632ffcc006d23b40723749ba9ce0087c82c4f80fb430c57fea1e9573606",
+  "verified_output_files": {
+    "outputs/ciwl_ablations.png": "65dc77739cdf11335a157a404fc969415c1ff01739bf052ef8556578f953fd37",
+    "outputs/ciwl_ablations.svg": "6601b655d24de66a39831f11752306bb584e866d07ebf02c21ee9a009ff36371",
+    "outputs/environment.txt": "8e9871728395bd863392e4dcf9a4daae97101233f380dce60dc9286896480be5",
+    "outputs/finished.json": "6a0fac3ca6fe65a98b470f5a0dd23c990baf3393e71cbe6df850e15b5fd1a837",
+    "outputs/intervention_audit.json": "86a9ecca744028374b1f4c9c426b3901b1ad65a1315e31835fa47d7f6c2686fe",
+    "outputs/metrics.tsv": "b27af0a30873d45bfd1ce475c94ea65300a7fbb37b3fca2af4b42131ccad2752",
+    "outputs/per_sequence_metrics.h5": "bd50d735a82a0aff52b60500179ada44ce10e287fa2af4dbb9b9c4b446f0abad",
+    "outputs/progress.json": "b60ff995aa92ddfbd76a4eb4c34eb6f12ce28ebb489541c99b505f0d78baea4d",
+    "outputs/provenance.json": "7e28b269a28fe262b09f7c04eb0068049f089bc649d9c2c007b429fcf2372126",
+    "outputs/summary.json": "d8c59934e5b1125da2aea0ce0b10a20ce263065f1745293165dc6343cd4f0180"
+  },
+  "conditions": 6,
+  "evaluators": 3,
+  "counts_and_paired_differences_consistent": true,
+  "source_code_protocol_checkpoint_evaluation_identities_passed": true,
+  "preserved_tensor_max_abs_change": 0.0,
+  "successful_shell_wall_seconds": 38.0,
+  "failed_preflight_shell_wall_seconds": {
+    "attempt_001_separate_graph_audit": 11.0,
+    "attempt_002_paired_graph_audit": 9.0
+  },
+  "plot_revision": {
+    "archive_sha256": "48c3dd9a1442d5afa261143da7c29eac12fc6a26f3dca68cf5d6d51db829eae5",
+    "verified_files": {
+      "plot_results.py": "74733f58ea6e2dc7d912264361b0293c192f64f1822d4da70d91c910e4ac46ab",
+      "outputs/ciwl_ablations.png": "7b6b7eb90c66c7342afbb67f53f66662cdb64960503d71c65dc62b299c52ba5d",
+      "outputs/ciwl_ablations.svg": "160c81be9f8737a24a2543df78ee58da16538ef048456f2c01d1e981c5bf86f0",
+      "outputs/plot_revision.started": "f407fc69aaac174b1ba59a57ecb403063929e12c499010afa7a0f383d28504c3",
+      "outputs/plot_revision.finished": "e6052456f3b2d77c4c57bd5e9ce81ae54060001fc3d4b6b9d049cc209665e018"
+    },
+    "wall_seconds": 1.0,
+    "change": "Legend position,title spacing,annotation padding only; no model evaluation"
+  },
+  "all_task_wall_seconds_including_failed_preflights_and_plot_revision": 59.0
+}

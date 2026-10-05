@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "checkpoint": 4400000,
+      "batch_vs_direct_max_error": 0.000646054744720459,
+      "saved_sample_vs_batch_matches": true,
+      "qk_reconstruction_max_error": 0.0,
+      "layer_index": 0,
+      "row_query_column_key": true,
+      "balanced_aggregation_verified": true,
+      "token_order": [
+        "x1",
+        "y1",
+        "x2",
+        "y2",
+        "xq"
+      ],
+      "sample0_labels": [
+        1348,
+        285,
+        1348
+      ]
+    },
+    {
+      "checkpoint": 20000000,
+      "batch_vs_direct_max_error": 0.0006204843521118164,
+      "saved_sample_vs_batch_matches": true,
+      "qk_reconstruction_max_error": 0.0,
+      "layer_index": 0,
+      "row_query_column_key": true,
+      "balanced_aggregation_verified": true,
+      "token_order": [
+        "x1",
+        "y1",
+        "x2",
+        "y2",
+        "xq"
+      ],
+      "sample0_labels": [
+        1348,
+        285,
+        1348
+      ]
+    }
+  ],
+  "scope": "validate extraction axes and probabilities; no model intervention",
+  "status": "passed"
+}

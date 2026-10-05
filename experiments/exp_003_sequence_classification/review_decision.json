@@ -1,0 +1,63 @@
+{
+  "status": "completed_pilot_review",
+  "original_loss_gate_passed": true,
+  "accuracy_effects": [
+    {
+      "seed": 103,
+      "group": "icl",
+      "target": "icl",
+      "loss_advantage_over_random": 0.084503173828125,
+      "in_context_accuracy": 0.7584,
+      "random_in_context_accuracy": 0.7612,
+      "accuracy_advantage_percentage_points": -0.28000000000000247,
+      "accuracy_change_from_anchor_percentage_points": -0.8000000000000007
+    },
+    {
+      "seed": 103,
+      "group": "ciwl",
+      "target": "iwl_copy_avail",
+      "loss_advantage_over_random": 0.024440765380859375,
+      "in_context_accuracy": 0.588,
+      "random_in_context_accuracy": 0.596,
+      "accuracy_advantage_percentage_points": -0.8000000000000007,
+      "accuracy_change_from_anchor_percentage_points": -0.5199999999999982
+    },
+    {
+      "seed": 104,
+      "group": "icl",
+      "target": "icl",
+      "loss_advantage_over_random": 0.16944456100463867,
+      "in_context_accuracy": 0.758,
+      "random_in_context_accuracy": 0.7552,
+      "accuracy_advantage_percentage_points": 0.28000000000000247,
+      "accuracy_change_from_anchor_percentage_points": -0.8399999999999963
+    },
+    {
+      "seed": 104,
+      "group": "ciwl",
+      "target": "iwl_copy_avail",
+      "loss_advantage_over_random": 0.034173011779785156,
+      "in_context_accuracy": 0.5888,
+      "random_in_context_accuracy": 0.5896,
+      "accuracy_advantage_percentage_points": -0.08000000000000229,
+      "accuracy_change_from_anchor_percentage_points": -0.43999999999999595
+    }
+  ],
+  "ability_growth_consistently_verified": false,
+  "allow_10m": false,
+  "frozen_validation_json_unchanged": true,
+  "review_is_posthoc": true,
+  "scope": "auxiliary review in the current conversation plus deterministic artifact/statistical checks, not an independent causal labeling oracle",
+  "findings": [
+    "Local full-class CE scores lower target CE in both selection seeds, but target in_context_acc does not consistently exceed random or the anchor.",
+    "Reported stage-conflict count 427409 prevents interpreting labels as permanent properties of these sequences.",
+    "Relative scores saturate at0/1 for opposite-sign gradients; 100% is not a calibrated probability or a strength ranking.",
+    "Both screened branches degrade train_eval and Flip relative to random; adverse effects must be retained.",
+    "Keep per-checkpoint continuous scores and reject labels; do not scale or claim formation labels based solely on the old loss gate."
+  ],
+  "script_feedback": [
+    "Use this review allow_10m decision in downstream launches, not validation.scale_gate_passed alone.",
+    "Future scoring revisions should examine alignment with the two in-context labels and actual Adam updates, in an independent protocol with new holdout evaluation.",
+    "Do not repair a failed ability claim merely by changing the threshold on the same holdout examples."
+  ]
+}

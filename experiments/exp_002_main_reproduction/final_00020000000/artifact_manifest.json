@@ -1,0 +1,94 @@
+{
+  "metrics.json": {
+    "bytes": 1094,
+    "sha256": "51ca96da64ef2fbdebc3e71a34c26d0c59f915ad0545f4017f429cf14eba143e"
+  },
+  "learning_curves.tsv": {
+    "bytes": 30262,
+    "sha256": "6708535d3782265cb877fc7be02c101a16e9dfaf29b108ad9def094d42fc93ba"
+  },
+  "00020000000.eqx": {
+    "bytes": 20641192,
+    "sha256": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d"
+  },
+  "learning_curves.pdf": {
+    "bytes": 22281,
+    "sha256": "7a89b5994a817c9176f2a107456816c9871cab06513dc67508113a0c49a53abf"
+  },
+  "source_manifest.json": {
+    "bytes": 1084,
+    "sha256": "a13d10b261d17af8143c090892825e776cbadbbafa6609888ac7d4ba7121adbe"
+  },
+  "learning_curves.png": {
+    "bytes": 129188,
+    "sha256": "49abdd569a856b1e67f1bea3181734f33364f18b25730604c9281db3f80e9946"
+  },
+  "checkpoint_transfer.json": {
+    "bytes": 209,
+    "sha256": "ebc3729e8064366557131fce832e2174d960262163f3025c465c12cafb3a54b0"
+  },
+  "final_checkpoint_audit.log": {
+    "bytes": 935,
+    "sha256": "79c1fe36ea415f2a617f7278d2f0ba0fd65481d0e6f560a39f5c139b1224824e"
+  },
+  "environment_with_encoder.txt": {
+    "bytes": 8136,
+    "sha256": "8e9871728395bd863392e4dcf9a4daae97101233f380dce60dc9286896480be5"
+  },
+  "feature_manifest.json": {
+    "bytes": 308,
+    "sha256": "ea79693ed617f1bfa8a26aa50575e34c68cc2d6e715953d98856352775bcb010"
+  },
+  "figure1b_window.png": {
+    "bytes": 108062,
+    "sha256": "095d30402a623273f59d07b435d469c4808ee8404b56d307c69115dc88ddc6a5"
+  },
+  "figure1b_window.pdf": {
+    "bytes": 21319,
+    "sha256": "39000cdfdd707436d7e0434cf17bab5bb549a90bb08527aab0732fba239855b0"
+  },
+  "close_at_20m.json": {
+    "bytes": 593,
+    "sha256": "0e233c75f5ed16d9bbdb8081e04a2decdee2caef83773bec1d2eccfd1443d364"
+  },
+  "adapter_code_snapshot.tar.gz": {
+    "bytes": 19205,
+    "sha256": "2e13d8d454b332cf1e1492c5b5addb530936e90328171a2057ae39c69acf9e85"
+  },
+  "original_config.json": {
+    "bytes": 25570,
+    "sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223"
+  },
+  "encoding_provenance.json": {
+    "bytes": 1032,
+    "sha256": "5373452022f9995146d4197cc3311a3db734731b3ba631206d78bc9ed2e79916"
+  },
+  "frozen_20m_protocol.json": {
+    "bytes": 1400,
+    "sha256": "317f2444ac4f1d7d9593107acb29519b0eefdb793df666df87d841fc24d726d5"
+  },
+  "train_resume_00002950016.log": {
+    "bytes": 398,
+    "sha256": "4da231f750d7b1f62734ab52ae70d59d489734ea8bf16c20d3e170e4dff9116c"
+  },
+  "train.log": {
+    "bytes": 358,
+    "sha256": "3e33e2544a3a28d16c4a3ed593a8ede0e24bb9fcabfcb64a61f78a5200d6cb25"
+  },
+  "final_checkpoint_audit.json": {
+    "bytes": 935,
+    "sha256": "79c1fe36ea415f2a617f7278d2f0ba0fd65481d0e6f560a39f5c139b1224824e"
+  },
+  "resume_config.json": {
+    "bytes": 25765,
+    "sha256": "79ce501fa79f282767fed0b36eef9059754739da8c9fc6e937e4f7628ed7741c"
+  },
+  "runtime_summary.json": {
+    "bytes": 230,
+    "sha256": "ec50948f01121268602da4070bc52300b89ab5ac6011db52764309044b55ea4c"
+  },
+  "code_manifest.json": {
+    "bytes": 2522,
+    "sha256": "09a808cd219108c0fd950478b96cc1099684db1403e98492714da32cee2e754f"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "code": 0,
+  "stdout": "{\"action\":\"-NonInteractive -NoProfile -WindowStyle Hidden -File \\\"D:\\\\research\\\\icl-dynamics\\\\exp_002_main_reproduction\\\\run_resume_task.ps1\\\"\",\"state\":\"Running\",\"lastRun\":\"2026-10-03T00:47:47-07:00\",\"lastResult\":267009}\r\n",
+  "stderr": ""
+}

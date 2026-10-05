@@ -1,0 +1,5 @@
+{
+  "code": 0,
+  "stdout": "{\"TaskName\":\"icl-dynamics-exp001-probe\",\"State\":3}\r\n{\"LastRunTime\":\"2026-10-02T23:21:21-07:00\",\"LastTaskResult\":124}\r\n",
+  "stderr": "#< CLIXML\r\n<Objs Version=\"1.1.0.1\" xmlns=\"http://schemas.microsoft.com/powershell/2004/04\"><Obj S=\"progress\" RefId=\"0\"><TN RefId=\"0\"><T>System.Management.Automation.PSCustomObject</T><T>System.Object</T></TN><MS><I64 N=\"SourceId\">1</I64><PR N=\"Record\"><AV>Get-ScheduledTask -TaskName 'icl-dynamics-exp001-probe' | Select-Object TaskName,State | ConvertTo-Json -Compress; Get-ScheduledTaskInfo -TaskName 'icl-dynamics-exp001-probe' | Select-Object LastRunTime,LastTaskResult | ConvertTo-Json -Compress</AV><AI>1785025896</AI><Nil /><PI>-1</PI><PC>100</PC><T>Completed</T><SR>0</SR><SD>����� 1/1</SD></PR></MS></Obj><Obj S=\"progress\" RefId=\"1\"><TNRef RefId=\"0\" /><MS><I64 N=\"SourceId\">2</I64><PR N=\"Record\"><AV>Get-ScheduledTaskInfo -TaskName 'icl-dynamics-exp001-probe' | Select-Object LastRunTime,LastTaskResult | ConvertTo-Json -Compress</AV><AI>1539454138</AI><Nil /><PI>-1</PI><PC>100</PC><T>Completed</T><SR>0</SR><SD>����� 1/1</SD></PR></MS></Obj></Objs>"
+}

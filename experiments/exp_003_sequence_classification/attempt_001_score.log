@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/research/icl-dynamics/exp_003_sequence_classification/score_and_validate.py", line 157, in <module>
+    np.testing.assert_allclose(batch, direct, rtol=2e-3, atol=3e-4)
+  File "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/venv/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/venv/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=0.002, atol=0.0003
+
+Mismatched elements: 2 / 2 (100%)
+Max absolute difference: 0.04011869
+Max relative difference: 0.01543265
+ x: array([-6.417376, -2.237649], dtype=float32)
+ y: array([-6.457495, -2.203641])

@@ -1,0 +1,3 @@
+$ErrorActionPreference='Stop'
+& 'C:\Program Files\WSL\wsl.exe' -d Ubuntu-22.04 --exec /bin/bash -lc 'set -eu; cd ~/research/icl-dynamics/exp_003_sequence_classification; cp /mnt/d/research/icl-dynamics/exp_003_sequence_classification/{post_review.py,review_audit.py} .; ~/research/icl-dynamics/exp_001_hardware_check/venv/bin/python post_review.py; ~/research/icl-dynamics/exp_001_hardware_check/venv/bin/python review_audit.py --pilot pilot > pilot/full_review_audit.json; cp pilot/{review_decision.json,full_review_audit.json} /mnt/d/research/icl-dynamics/exp_003_sequence_classification/'
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

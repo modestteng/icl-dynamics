@@ -1,0 +1,3 @@
+$ErrorActionPreference='Stop'
+& 'C:\Program Files\WSL\wsl.exe' -d Ubuntu-22.04 --exec /bin/bash -lc 'set -eu; mkdir -p ~/research/icl-dynamics/exp_004_l1_attention; cp /mnt/d/research/icl-dynamics/exp_004_l1_attention/{extract_attention.py,plot_attention.py,run_attention.sh,protocol.md,expected_baseline.json} ~/research/icl-dynamics/exp_004_l1_attention/; ls -l ~/research/icl-dynamics/exp_002_main_reproduction/runs/main/checkpoints/00000000000.eqx; ls -l ~/research/icl-dynamics/exp_002_main_reproduction/runs/main_resume_00002950016/checkpoints/00020000000.eqx; ~/research/icl-dynamics/exp_001_hardware_check/venv/bin/python -m py_compile ~/research/icl-dynamics/exp_004_l1_attention/*.py'
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

@@ -1,0 +1,11 @@
+{
+  "status": "failed_preflight_before_full_evaluation",
+  "script_sha256": "a1669ff676cc900be8e070a477e3c0e7952cc07863503b64b0dd75da5f08f23d",
+  "max_reported_absolute_difference": 0.0056048,
+  "audit_tolerance": {
+    "rtol": 2e-05,
+    "atol": 3e-06
+  },
+  "hypothesis": "Separate JIT graph compilation in original vs opto forward may alter default-precision arithmetic; unconfirmed until same-graph audit.",
+  "full_evaluation_started": false
+}

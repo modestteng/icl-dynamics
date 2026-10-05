@@ -1,0 +1,8 @@
+0
+plots_completed
+-rw-r--r-- 1 ubuntu ubuntu 835K Oct  4 04:25 outputs/l1_all_heads_matrices_icl.png
+-rw-r--r-- 1 ubuntu ubuntu 847K Oct  4 04:25 outputs/l1_all_heads_matrices_train_eval.png
+-rw-r--r-- 1 ubuntu ubuntu 164K Oct  4 04:26 outputs/l1_head0_matrices.png
+-rw-r--r-- 1 ubuntu ubuntu 151K Oct  4 04:26 outputs/l1_head1_actual_sequence0.png
+-rw-r--r-- 1 ubuntu ubuntu 164K Oct  4 04:26 outputs/l1_head1_matrices.png
+

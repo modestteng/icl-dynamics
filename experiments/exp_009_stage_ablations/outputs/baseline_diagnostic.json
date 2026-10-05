@@ -1,0 +1,16 @@
+{
+  "stage": 4000000,
+  "evaluator": "iwl_copy_avail",
+  "author_training_eval_batch_size": 1000,
+  "author_cli_batch_size": 1024,
+  "native_accuracy": 0.5676,
+  "native_correct_count": 2838,
+  "cli_accuracy": 0.5676,
+  "cli_correct_count": 2838,
+  "baseline_logged_accuracy": 0.568,
+  "author_native_evaluator": "main.eval_step via main.make_batched_fn, unchanged",
+  "differing_judgments": [],
+  "native_array_file": "baseline_native_4m_ciwl.npz",
+  "seconds": 7.591120839000041,
+  "no_precision_or_parameter_change": true
+}

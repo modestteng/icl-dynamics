@@ -1,0 +1,2 @@
+$ErrorActionPreference='Stop'
+& 'C:\Program Files\WSL\wsl.exe' -d Ubuntu-22.04 --exec /bin/bash -lc 'set -eu; cd ~/research/icl-dynamics/exp_004_l1_attention; cat exit_code 2>/dev/null || true; tail -3 logs/plot.log; mkdir -p /mnt/d/research/icl-dynamics/exp_004_l1_attention/delivery; cp outputs/{summary.json,provenance.json,finished.json} /mnt/d/research/icl-dynamics/exp_004_l1_attention/delivery/; ls -lh outputs/*.png | head -5'

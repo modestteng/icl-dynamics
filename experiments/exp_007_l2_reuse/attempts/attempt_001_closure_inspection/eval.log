@@ -1,0 +1,8 @@
+WARNING: Graft out does not support carrying over opto. If the model being used to graft out relied on opto, those manipulations will *not* be applied.
+Opto being used...
+Traceback (most recent call last):
+  File "/home/ubuntu/research/icl-dynamics/exp_007_l2_reuse/run_eval.py", line 89, in <module>
+    closure = {name: cell.cell_contents for name, cell in
+  File "/home/ubuntu/research/icl-dynamics/exp_007_l2_reuse/run_eval.py", line 89, in <dictcomp>
+    closure = {name: cell.cell_contents for name, cell in
+ValueError: Cell is empty

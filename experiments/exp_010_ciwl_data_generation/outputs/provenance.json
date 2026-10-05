@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-04T14:40:19.132199+00:00",
+  "machine": "LAPTOP-A9ON60MQ",
+  "devices": [
+    "cuda:0"
+  ],
+  "jax": "0.4.26",
+  "equinox": "0.11.4",
+  "plan": {
+    "experiment_id": "exp_010_ciwl_data_generation",
+    "sequences": 5000,
+    "seed": 20261004,
+    "training_classes": 12800,
+    "exemplars_per_class": 20,
+    "context_len": 2,
+    "burstiness": 0,
+    "no_support": true,
+    "unique_rest": true,
+    "assign_query_label_random": true,
+    "fs_relabel": null,
+    "noise_scale": 0.0,
+    "scope": "generation_and_structural_audit_only_no_training",
+    "output_group": "ciwl_augmentation"
+  },
+  "source_sha256": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+  },
+  "baseline_config_sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+  "feature_path": "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/features/omniglot_features_reordered.h5",
+  "feature_sha256": "3df152d4ddddbb022036a01b1664e2118c7ad683eb1ea18148cfc1ea6dcbf41c",
+  "original_eval_sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+  "generation_command": "bash run_generation.sh",
+  "run_generation_sha256": "f9eb36b0098edcc658be1661f4a2f4bbd5b396762a832e70f38fc8043e1764a8",
+  "protocol_sha256": "bf5ac4e30d0e060c839394569bea22465d041d4db616940c690c3237acda3155",
+  "sampler_call": "author CIWL evaluator style; one 5000-sequence batch; independent PRNGKey",
+  "claim_scope": "paper-defined CIWL-only construction; no effect on learning tested"
+}

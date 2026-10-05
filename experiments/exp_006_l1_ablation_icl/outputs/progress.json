@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "icl": {
+      "in_context_acc": 0.5408,
+      "in_context_loss": 5.0303404284593,
+      "in_context_prob": 0.5397577864557687,
+      "loss": 6.435439058718691,
+      "correct_count": 2704,
+      "count": 5000
+    }
+  },
+  "preserve_qkv": {
+    "icl": {
+      "in_context_acc": 0.5402,
+      "in_context_loss": 5.174207117648265,
+      "in_context_prob": 0.5397020820226597,
+      "loss": 6.792709218095778,
+      "correct_count": 2701,
+      "count": 5000
+    }
+  },
+  "recompute_k": {
+    "icl": {
+      "in_context_acc": 0.5076,
+      "in_context_loss": 2.6346767943005203,
+      "in_context_prob": 0.5066174870414876,
+      "loss": 5.569412391434423,
+      "correct_count": 2538,
+      "count": 5000
+    }
+  },
+  "recompute_v": {
+    "icl": {
+      "in_context_acc": 0.5098,
+      "in_context_loss": 2.4047720315576373,
+      "in_context_prob": 0.5064821183765401,
+      "loss": 13.235032243919372,
+      "correct_count": 2549,
+      "count": 5000
+    }
+  },
+  "recompute_q": {
+    "icl": {
+      "in_context_acc": 0.5316,
+      "in_context_loss": 5.2848457123929595,
+      "in_context_prob": 0.5334414806496159,
+      "loss": 6.834579651957296,
+      "correct_count": 2658,
+      "count": 5000
+    }
+  },
+  "ablate_l1": {
+    "icl": {
+      "in_context_acc": 0.5066,
+      "in_context_loss": 2.606137127383948,
+      "in_context_prob": 0.506089402524157,
+      "loss": 12.769299120426178,
+      "correct_count": 2533,
+      "count": 5000
+    }
+  }
+}

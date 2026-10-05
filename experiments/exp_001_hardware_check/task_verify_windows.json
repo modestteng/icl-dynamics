@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"last_run\":\"2026-10-03T06:21:21.0000000Z\",\"task\":\"icl-dynamics-exp001-probe\",\"state\":\"Running\",\"last_result\":267009}\r\n{\"Id\":10960,\"ProcessName\":\"wsl\",\"StartTime\":\"2026-10-02T23:21:36.2089001-07:00\"}\r\n",
+  "stderr": ""
+}

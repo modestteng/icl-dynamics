@@ -1,0 +1,2 @@
+$ErrorActionPreference='Stop'
+& 'C:\Program Files\WSL\wsl.exe' -d Ubuntu-22.04 --exec /bin/bash -lc 'cd ~/research/icl-dynamics/exp_003_sequence_classification; tail -65 logs/score_and_validate.log; cat pilot/score_provenance.json; cp pilot/replay_audit.json /mnt/d/research/icl-dynamics/exp_003_sequence_classification/replay_audit.json; cp logs/score_and_validate.log /mnt/d/research/icl-dynamics/exp_003_sequence_classification/attempt_001_score.log'

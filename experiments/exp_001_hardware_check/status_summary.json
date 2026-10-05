@@ -1,0 +1,15 @@
+{
+  "author_source_changed": [],
+  "initial_probe_exit_code": 124,
+  "initial_probe_limit_seconds": 600,
+  "initial_probe_completed_training_steps": null,
+  "steady_throughput": null,
+  "purpose": "resource estimate only; no scientific result",
+  "latest_verified_task_state": "Ready",
+  "latest_verified_task_result": 124,
+  "data_order_approval": "approved by user",
+  "timing_policy": "User directed approximate timing and Windows RTX4070; no further timing probe launched",
+  "phase_diagnostic_first_batch_completed": true,
+  "phase_diagnostic_exit_code": 124,
+  "phase_diagnostic_root_cause": "not established"
+}

@@ -1,0 +1,4 @@
+
+Connection timed out during banner exchange
+Connection to 100.74.236.7 port 22 timed out
+

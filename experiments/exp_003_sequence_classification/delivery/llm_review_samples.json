@@ -1,0 +1,1687 @@
+{
+  "checkpoints": [
+    2000000,
+    4400000,
+    8000000
+  ],
+  "not_probability": true,
+  "samples": [
+    {
+      "sequence_id": 0,
+      "class_idx": [
+        11885,
+        9709,
+        9709
+      ],
+      "exemplar_idx": [
+        4,
+        9,
+        17
+      ],
+      "exact_match": false,
+      "icl_score": -5.578874588012695,
+      "ciwl_score": 12.600032806396484,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "sequence_id": 2,
+      "class_idx": [
+        3568,
+        7848,
+        7848
+      ],
+      "exemplar_idx": [
+        8,
+        5,
+        7
+      ],
+      "exact_match": false,
+      "icl_score": -0.6508172750473022,
+      "ciwl_score": 12.00493049621582,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "sequence_id": 4,
+      "class_idx": [
+        10904,
+        5152,
+        10904
+      ],
+      "exemplar_idx": [
+        16,
+        11,
+        17
+      ],
+      "exact_match": false,
+      "icl_score": -40.50557327270508,
+      "ciwl_score": 21.564743041992188,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "sequence_id": 6,
+      "class_idx": [
+        2612,
+        1174,
+        2612
+      ],
+      "exemplar_idx": [
+        1,
+        10,
+        5
+      ],
+      "exact_match": false,
+      "icl_score": -17.070219039916992,
+      "ciwl_score": 57.567649841308594,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 7,
+      "class_idx": [
+        11894,
+        6431,
+        11894
+      ],
+      "exemplar_idx": [
+        9,
+        4,
+        3
+      ],
+      "exact_match": false,
+      "icl_score": 0.3560830354690552,
+      "ciwl_score": 10.461212158203125,
+      "relative_icl": 0.032917916774749756,
+      "stage_labels": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 9,
+      "class_idx": [
+        9342,
+        8950,
+        8950
+      ],
+      "exemplar_idx": [
+        5,
+        7,
+        7
+      ],
+      "exact_match": true,
+      "icl_score": -1.6418933868408203,
+      "ciwl_score": 3.811187505722046,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 10,
+      "class_idx": [
+        2158,
+        12071,
+        2158
+      ],
+      "exemplar_idx": [
+        2,
+        0,
+        2
+      ],
+      "exact_match": true,
+      "icl_score": 4.247868061065674,
+      "ciwl_score": -38.467689514160156,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 11,
+      "class_idx": [
+        7350,
+        12047,
+        7350
+      ],
+      "exemplar_idx": [
+        14,
+        9,
+        17
+      ],
+      "exact_match": false,
+      "icl_score": 14.379570007324219,
+      "ciwl_score": -43.80521011352539,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 12,
+      "class_idx": [
+        6266,
+        5223,
+        6266
+      ],
+      "exemplar_idx": [
+        7,
+        7,
+        17
+      ],
+      "exact_match": false,
+      "icl_score": -1.8207786083221436,
+      "ciwl_score": -0.9029426574707031,
+      "relative_icl": 0.33151066303253174,
+      "stage_labels": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "sequence_id": 13,
+      "class_idx": [
+        4401,
+        6171,
+        4401
+      ],
+      "exemplar_idx": [
+        13,
+        14,
+        1
+      ],
+      "exact_match": false,
+      "icl_score": 1.7392823696136475,
+      "ciwl_score": -1.35965096950531,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 14,
+      "class_idx": [
+        8187,
+        2997,
+        2997
+      ],
+      "exemplar_idx": [
+        15,
+        2,
+        2
+      ],
+      "exact_match": true,
+      "icl_score": 0.7913850545883179,
+      "ciwl_score": -1.2296339273452759,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 15,
+      "class_idx": [
+        8575,
+        11640,
+        11640
+      ],
+      "exemplar_idx": [
+        17,
+        4,
+        19
+      ],
+      "exact_match": false,
+      "icl_score": 1.3453365564346313,
+      "ciwl_score": 6.173105239868164,
+      "relative_icl": 0.17893821001052856,
+      "stage_labels": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 17,
+      "class_idx": [
+        5581,
+        6975,
+        6975
+      ],
+      "exemplar_idx": [
+        6,
+        13,
+        16
+      ],
+      "exact_match": false,
+      "icl_score": 0.46812331676483154,
+      "ciwl_score": 1.4459319114685059,
+      "relative_icl": 0.2445714771747589,
+      "stage_labels": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 19,
+      "class_idx": [
+        8121,
+        12346,
+        8121
+      ],
+      "exemplar_idx": [
+        14,
+        8,
+        4
+      ],
+      "exact_match": false,
+      "icl_score": 4.516951560974121,
+      "ciwl_score": 2.5126938819885254,
+      "relative_icl": 0.6425575166940689,
+      "stage_labels": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 26,
+      "class_idx": [
+        7429,
+        7344,
+        7429
+      ],
+      "exemplar_idx": [
+        7,
+        11,
+        18
+      ],
+      "exact_match": false,
+      "icl_score": 0.06466042995452881,
+      "ciwl_score": -0.34789568185806274,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 29,
+      "class_idx": [
+        10108,
+        6059,
+        6059
+      ],
+      "exemplar_idx": [
+        15,
+        16,
+        10
+      ],
+      "exact_match": false,
+      "icl_score": 2.4597344398498535,
+      "ciwl_score": 7.825315475463867,
+      "relative_icl": 0.23915627598762512,
+      "stage_labels": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 31,
+      "class_idx": [
+        4209,
+        11041,
+        11041
+      ],
+      "exemplar_idx": [
+        17,
+        13,
+        19
+      ],
+      "exact_match": false,
+      "icl_score": 0.5660829544067383,
+      "ciwl_score": -2.678295135498047,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 34,
+      "class_idx": [
+        9287,
+        12164,
+        9287
+      ],
+      "exemplar_idx": [
+        19,
+        14,
+        3
+      ],
+      "exact_match": false,
+      "icl_score": 8.186341285705566,
+      "ciwl_score": -2.95133113861084,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 39,
+      "class_idx": [
+        10334,
+        4234,
+        4234
+      ],
+      "exemplar_idx": [
+        7,
+        3,
+        3
+      ],
+      "exact_match": true,
+      "icl_score": 7.688847541809082,
+      "ciwl_score": 9.366841316223145,
+      "relative_icl": 0.4508083835244179,
+      "stage_labels": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "sequence_id": 42,
+      "class_idx": [
+        534,
+        11217,
+        534
+      ],
+      "exemplar_idx": [
+        6,
+        13,
+        7
+      ],
+      "exact_match": false,
+      "icl_score": 10.601984024047852,
+      "ciwl_score": 7.943219184875488,
+      "relative_icl": 0.5716833546757698,
+      "stage_labels": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 43,
+      "class_idx": [
+        5668,
+        9696,
+        5668
+      ],
+      "exemplar_idx": [
+        15,
+        8,
+        19
+      ],
+      "exact_match": false,
+      "icl_score": 2.648061752319336,
+      "ciwl_score": 0.667421817779541,
+      "relative_icl": 0.7986954748630524,
+      "stage_labels": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 46,
+      "class_idx": [
+        9905,
+        1984,
+        9905
+      ],
+      "exemplar_idx": [
+        7,
+        19,
+        10
+      ],
+      "exact_match": false,
+      "icl_score": 1.8256789445877075,
+      "ciwl_score": 1.3114416599273682,
+      "relative_icl": 0.5819600746035576,
+      "stage_labels": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 50,
+      "class_idx": [
+        3525,
+        11013,
+        3525
+      ],
+      "exemplar_idx": [
+        8,
+        1,
+        6
+      ],
+      "exact_match": false,
+      "icl_score": 5.18087911605835,
+      "ciwl_score": 3.603728771209717,
+      "relative_icl": 0.5897678285837173,
+      "stage_labels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 51,
+      "class_idx": [
+        133,
+        6934,
+        133
+      ],
+      "exemplar_idx": [
+        18,
+        17,
+        2
+      ],
+      "exact_match": false,
+      "icl_score": 5.0818657875061035,
+      "ciwl_score": 2.4852654933929443,
+      "relative_icl": 0.6715709865093231,
+      "stage_labels": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 54,
+      "class_idx": [
+        877,
+        1000,
+        877
+      ],
+      "exemplar_idx": [
+        5,
+        1,
+        1
+      ],
+      "exact_match": false,
+      "icl_score": 0.19028343260288239,
+      "ciwl_score": 2.402967929840088,
+      "relative_icl": 0.07337641716003418,
+      "stage_labels": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "sequence_id": 62,
+      "class_idx": [
+        2531,
+        1891,
+        1891
+      ],
+      "exemplar_idx": [
+        19,
+        0,
+        9
+      ],
+      "exact_match": false,
+      "icl_score": 3.728393793106079,
+      "ciwl_score": 1.2475864887237549,
+      "relative_icl": 0.7492782473564148,
+      "stage_labels": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 72,
+      "class_idx": [
+        6233,
+        11553,
+        6233
+      ],
+      "exemplar_idx": [
+        6,
+        13,
+        16
+      ],
+      "exact_match": false,
+      "icl_score": 1.2102704048156738,
+      "ciwl_score": 0.01262308657169342,
+      "relative_icl": 0.9896776974201202,
+      "stage_labels": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 74,
+      "class_idx": [
+        4260,
+        6446,
+        6446
+      ],
+      "exemplar_idx": [
+        9,
+        13,
+        8
+      ],
+      "exact_match": false,
+      "icl_score": 0.04816250130534172,
+      "ciwl_score": 1.5923049449920654,
+      "relative_icl": 0.029358983039855957,
+      "stage_labels": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 79,
+      "class_idx": [
+        2869,
+        10471,
+        10471
+      ],
+      "exemplar_idx": [
+        4,
+        11,
+        14
+      ],
+      "exact_match": false,
+      "icl_score": 3.221740484237671,
+      "ciwl_score": 14.138812065124512,
+      "relative_icl": 0.18557822704315186,
+      "stage_labels": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 18922,
+      "class_idx": [
+        2228,
+        249,
+        2228
+      ],
+      "exemplar_idx": [
+        0,
+        13,
+        16
+      ],
+      "exact_match": false,
+      "icl_score": 0.7283477783203125,
+      "ciwl_score": 0.7283452749252319,
+      "relative_icl": 0.5000008592733707,
+      "stage_labels": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "sequence_id": 37629,
+      "class_idx": [
+        2465,
+        5579,
+        5579
+      ],
+      "exemplar_idx": [
+        7,
+        15,
+        3
+      ],
+      "exact_match": false,
+      "icl_score": -1.2700676918029785,
+      "ciwl_score": -1.2701385021209717,
+      "relative_icl": 0.5000139379071697,
+      "stage_labels": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "sequence_id": 60980,
+      "class_idx": [
+        5584,
+        6798,
+        5584
+      ],
+      "exemplar_idx": [
+        17,
+        13,
+        18
+      ],
+      "exact_match": false,
+      "icl_score": 1.4327466487884521,
+      "ciwl_score": 1.4327969551086426,
+      "relative_icl": 0.4999912222028797,
+      "stage_labels": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "sequence_id": 90779,
+      "class_idx": [
+        9137,
+        4412,
+        9137
+      ],
+      "exemplar_idx": [
+        18,
+        8,
+        9
+      ],
+      "exact_match": false,
+      "icl_score": 0.9307467937469482,
+      "ciwl_score": 0.9307081699371338,
+      "relative_icl": 0.5000103746288005,
+      "stage_labels": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "sequence_id": 179841,
+      "class_idx": [
+        5380,
+        8152,
+        5380
+      ],
+      "exemplar_idx": [
+        6,
+        6,
+        16
+      ],
+      "exact_match": false,
+      "icl_score": 2.966177463531494,
+      "ciwl_score": -0.3598858416080475,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 179842,
+      "class_idx": [
+        11919,
+        1469,
+        1469
+      ],
+      "exemplar_idx": [
+        14,
+        2,
+        14
+      ],
+      "exact_match": false,
+      "icl_score": 0.8338153958320618,
+      "ciwl_score": -5.258866786956787,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 191881,
+      "class_idx": [
+        12280,
+        5336,
+        12280
+      ],
+      "exemplar_idx": [
+        2,
+        0,
+        12
+      ],
+      "exact_match": false,
+      "icl_score": 8.987106323242188,
+      "ciwl_score": 8.987527847290039,
+      "relative_icl": 0.4999882744750721,
+      "stage_labels": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "sequence_id": 241876,
+      "class_idx": [
+        5330,
+        4263,
+        5330
+      ],
+      "exemplar_idx": [
+        10,
+        8,
+        6
+      ],
+      "exact_match": false,
+      "icl_score": -20.20197105407715,
+      "ciwl_score": 19.736709594726562,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "sequence_id": 241877,
+      "class_idx": [
+        8040,
+        5957,
+        5957
+      ],
+      "exemplar_idx": [
+        5,
+        3,
+        15
+      ],
+      "exact_match": false,
+      "icl_score": -9.98415756225586,
+      "ciwl_score": 46.110084533691406,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 241886,
+      "class_idx": [
+        8478,
+        9612,
+        9612
+      ],
+      "exemplar_idx": [
+        4,
+        10,
+        18
+      ],
+      "exact_match": false,
+      "icl_score": -17.665912628173828,
+      "ciwl_score": 43.80964279174805,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "sequence_id": 241890,
+      "class_idx": [
+        8885,
+        6216,
+        6216
+      ],
+      "exemplar_idx": [
+        3,
+        8,
+        5
+      ],
+      "exact_match": false,
+      "icl_score": -7.004307746887207,
+      "ciwl_score": 16.51405906677246,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "sequence_id": 241892,
+      "class_idx": [
+        7952,
+        3438,
+        7952
+      ],
+      "exemplar_idx": [
+        17,
+        17,
+        18
+      ],
+      "exact_match": false,
+      "icl_score": -2.707690954208374,
+      "ciwl_score": 1.8866533041000366,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 241894,
+      "class_idx": [
+        7583,
+        10734,
+        7583
+      ],
+      "exemplar_idx": [
+        17,
+        13,
+        3
+      ],
+      "exact_match": false,
+      "icl_score": -2.4751429557800293,
+      "ciwl_score": 0.008504211902618408,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "sequence_id": 241896,
+      "class_idx": [
+        5146,
+        6144,
+        6144
+      ],
+      "exemplar_idx": [
+        15,
+        12,
+        1
+      ],
+      "exact_match": false,
+      "icl_score": -1.3957099914550781,
+      "ciwl_score": 0.5296031832695007,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 241897,
+      "class_idx": [
+        3990,
+        9158,
+        3990
+      ],
+      "exemplar_idx": [
+        4,
+        14,
+        8
+      ],
+      "exact_match": false,
+      "icl_score": -6.718141555786133,
+      "ciwl_score": 21.785757064819336,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 285894,
+      "class_idx": [
+        10758,
+        10437,
+        10437
+      ],
+      "exemplar_idx": [
+        6,
+        0,
+        9
+      ],
+      "exact_match": false,
+      "icl_score": 2.953026294708252,
+      "ciwl_score": 2.952813148498535,
+      "relative_icl": 0.5000180453771463,
+      "stage_labels": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "sequence_id": 297725,
+      "class_idx": [
+        762,
+        193,
+        193
+      ],
+      "exemplar_idx": [
+        15,
+        16,
+        12
+      ],
+      "exact_match": false,
+      "icl_score": 12.242488861083984,
+      "ciwl_score": 12.242959022521973,
+      "relative_icl": 0.4999903991656538,
+      "stage_labels": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "sequence_id": 337152,
+      "class_idx": [
+        4899,
+        8108,
+        8108
+      ],
+      "exemplar_idx": [
+        11,
+        12,
+        2
+      ],
+      "exact_match": false,
+      "icl_score": -2.5259273052215576,
+      "ciwl_score": -2.5258607864379883,
+      "relative_icl": 0.499993416313373,
+      "stage_labels": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "sequence_id": 345440,
+      "class_idx": [
+        12462,
+        7753,
+        12462
+      ],
+      "exemplar_idx": [
+        4,
+        11,
+        12
+      ],
+      "exact_match": false,
+      "icl_score": 10.306492805480957,
+      "ciwl_score": -36.962318420410156,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 345443,
+      "class_idx": [
+        6353,
+        5405,
+        5405
+      ],
+      "exemplar_idx": [
+        17,
+        19,
+        9
+      ],
+      "exact_match": false,
+      "icl_score": 12.9212064743042,
+      "ciwl_score": -55.733943939208984,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 345449,
+      "class_idx": [
+        12588,
+        12758,
+        12758
+      ],
+      "exemplar_idx": [
+        14,
+        6,
+        16
+      ],
+      "exact_match": false,
+      "icl_score": 7.203127861022949,
+      "ciwl_score": -0.8092557191848755,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 345450,
+      "class_idx": [
+        9085,
+        883,
+        883
+      ],
+      "exemplar_idx": [
+        7,
+        12,
+        8
+      ],
+      "exact_match": false,
+      "icl_score": 1.1902086734771729,
+      "ciwl_score": -1.2155708074569702,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 345454,
+      "class_idx": [
+        11804,
+        7414,
+        11804
+      ],
+      "exemplar_idx": [
+        12,
+        4,
+        9
+      ],
+      "exact_match": false,
+      "icl_score": 8.981220245361328,
+      "ciwl_score": -4.641465187072754,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 345456,
+      "class_idx": [
+        10556,
+        5286,
+        5286
+      ],
+      "exemplar_idx": [
+        0,
+        11,
+        16
+      ],
+      "exact_match": false,
+      "icl_score": 9.984320640563965,
+      "ciwl_score": -9.535379409790039,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 409753,
+      "class_idx": [
+        89,
+        6055,
+        89
+      ],
+      "exemplar_idx": [
+        7,
+        16,
+        4
+      ],
+      "exact_match": false,
+      "icl_score": -0.4326256215572357,
+      "ciwl_score": -0.43259546160697937,
+      "relative_icl": 0.49998257095649024,
+      "stage_labels": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "sequence_id": 427572,
+      "class_idx": [
+        8438,
+        815,
+        8438
+      ],
+      "exemplar_idx": [
+        14,
+        14,
+        12
+      ],
+      "exact_match": false,
+      "icl_score": -2.049117088317871,
+      "ciwl_score": -2.049160957336426,
+      "relative_icl": 0.5000053521280279,
+      "stage_labels": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "sequence_id": 460507,
+      "class_idx": [
+        6741,
+        7954,
+        6741
+      ],
+      "exemplar_idx": [
+        3,
+        3,
+        19
+      ],
+      "exact_match": false,
+      "icl_score": 1.3597850799560547,
+      "ciwl_score": -8.45553970336914,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 460511,
+      "class_idx": [
+        176,
+        199,
+        199
+      ],
+      "exemplar_idx": [
+        12,
+        4,
+        14
+      ],
+      "exact_match": false,
+      "icl_score": 12.310096740722656,
+      "ciwl_score": -9.375799179077148,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 460520,
+      "class_idx": [
+        2829,
+        8637,
+        8637
+      ],
+      "exemplar_idx": [
+        16,
+        3,
+        13
+      ],
+      "exact_match": false,
+      "icl_score": 1.8004897832870483,
+      "ciwl_score": -0.5994204878807068,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 460526,
+      "class_idx": [
+        75,
+        2132,
+        2132
+      ],
+      "exemplar_idx": [
+        0,
+        15,
+        11
+      ],
+      "exact_match": false,
+      "icl_score": 3.013667345046997,
+      "ciwl_score": -8.277518272399902,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 481238,
+      "class_idx": [
+        3613,
+        11657,
+        3613
+      ],
+      "exemplar_idx": [
+        1,
+        1,
+        3
+      ],
+      "exact_match": false,
+      "icl_score": 0.6477782726287842,
+      "ciwl_score": 0.6477579474449158,
+      "relative_icl": 0.5000078443126768,
+      "stage_labels": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "sequence_id": 560444,
+      "class_idx": [
+        2271,
+        3060,
+        3060
+      ],
+      "exemplar_idx": [
+        18,
+        8,
+        9
+      ],
+      "exact_match": false,
+      "icl_score": 3.8380091190338135,
+      "ciwl_score": 3.8382482528686523,
+      "relative_icl": 0.49998442379910557,
+      "stage_labels": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "sequence_id": 621995,
+      "class_idx": [
+        1510,
+        12365,
+        12365
+      ],
+      "exemplar_idx": [
+        6,
+        7,
+        3
+      ],
+      "exact_match": false,
+      "icl_score": -10.021108627319336,
+      "ciwl_score": 7.135434150695801,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "sequence_id": 621996,
+      "class_idx": [
+        12190,
+        12301,
+        12301
+      ],
+      "exemplar_idx": [
+        1,
+        5,
+        15
+      ],
+      "exact_match": false,
+      "icl_score": -8.553520202636719,
+      "ciwl_score": 13.20851993560791,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 621997,
+      "class_idx": [
+        1832,
+        862,
+        862
+      ],
+      "exemplar_idx": [
+        14,
+        15,
+        8
+      ],
+      "exact_match": false,
+      "icl_score": -0.3497459292411804,
+      "ciwl_score": 17.761459350585938,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "sequence_id": 622008,
+      "class_idx": [
+        5307,
+        40,
+        40
+      ],
+      "exemplar_idx": [
+        1,
+        14,
+        1
+      ],
+      "exact_match": false,
+      "icl_score": -5.671924591064453,
+      "ciwl_score": 10.110735893249512,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 622012,
+      "class_idx": [
+        5643,
+        6411,
+        5643
+      ],
+      "exemplar_idx": [
+        9,
+        2,
+        10
+      ],
+      "exact_match": false,
+      "icl_score": -1.9360733032226562,
+      "ciwl_score": 1.191546082496643,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "sequence_id": 622016,
+      "class_idx": [
+        3784,
+        9428,
+        9428
+      ],
+      "exemplar_idx": [
+        19,
+        3,
+        5
+      ],
+      "exact_match": false,
+      "icl_score": -15.012385368347168,
+      "ciwl_score": 56.99734878540039,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 622018,
+      "class_idx": [
+        6609,
+        1603,
+        1603
+      ],
+      "exemplar_idx": [
+        18,
+        6,
+        2
+      ],
+      "exact_match": false,
+      "icl_score": -2.619563102722168,
+      "ciwl_score": 4.191158771514893,
+      "relative_icl": 0.0,
+      "stage_labels": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "sequence_id": 634766,
+      "class_idx": [
+        5140,
+        5906,
+        5906
+      ],
+      "exemplar_idx": [
+        12,
+        1,
+        19
+      ],
+      "exact_match": false,
+      "icl_score": 4.734486103057861,
+      "ciwl_score": 4.734194278717041,
+      "relative_icl": 0.5000154099798237,
+      "stage_labels": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "sequence_id": 695135,
+      "class_idx": [
+        2579,
+        6886,
+        6886
+      ],
+      "exemplar_idx": [
+        13,
+        14,
+        0
+      ],
+      "exact_match": false,
+      "icl_score": 7.026293754577637,
+      "ciwl_score": -4.633620262145996,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "sequence_id": 718732,
+      "class_idx": [
+        6802,
+        5054,
+        6802
+      ],
+      "exemplar_idx": [
+        6,
+        7,
+        17
+      ],
+      "exact_match": false,
+      "icl_score": 5.470901966094971,
+      "ciwl_score": -9.445477485656738,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 718745,
+      "class_idx": [
+        3464,
+        2173,
+        2173
+      ],
+      "exemplar_idx": [
+        3,
+        12,
+        7
+      ],
+      "exact_match": false,
+      "icl_score": 14.458931922912598,
+      "ciwl_score": -6.548212051391602,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "sequence_id": 718760,
+      "class_idx": [
+        7598,
+        3705,
+        3705
+      ],
+      "exemplar_idx": [
+        16,
+        13,
+        19
+      ],
+      "exact_match": false,
+      "icl_score": 0.7654680609703064,
+      "ciwl_score": -6.6136345863342285,
+      "relative_icl": 1.0,
+      "stage_labels": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "sequence_id": 774569,
+      "class_idx": [
+        4966,
+        6656,
+        6656
+      ],
+      "exemplar_idx": [
+        18,
+        6,
+        6
+      ],
+      "exact_match": true,
+      "icl_score": -2.432319402694702,
+      "ciwl_score": -2.4321608543395996,
+      "relative_icl": 0.49998370346293086,
+      "stage_labels": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "sequence_id": 913699,
+      "class_idx": [
+        7476,
+        7590,
+        7590
+      ],
+      "exemplar_idx": [
+        6,
+        16,
+        13
+      ],
+      "exact_match": false,
+      "icl_score": -0.8015344142913818,
+      "ciwl_score": -0.8015049695968628,
+      "relative_icl": 0.49999081597889017,
+      "stage_labels": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "sequence_id": 934959,
+      "class_idx": [
+        8262,
+        12530,
+        8262
+      ],
+      "exemplar_idx": [
+        19,
+        10,
+        11
+      ],
+      "exact_match": false,
+      "icl_score": -14.027864456176758,
+      "ciwl_score": -14.027234077453613,
+      "relative_icl": 0.49998876534482406,
+      "stage_labels": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "review_questions": [
+    "Do labels and exact-match fields obey original rules?",
+    "Are joint-positive or ambiguous rows being mistaken for exclusive causal effects?",
+    "Does held-out Adam validation support the proposed ranking?"
+  ]
+}

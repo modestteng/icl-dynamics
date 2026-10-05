@@ -1,0 +1,50 @@
+[
+  {
+    "condition": "baseline",
+    "evaluator": "icl",
+    "count": 5000,
+    "correct_count": 2704,
+    "in_context_acc": 0.5408,
+    "in_context_prob": 0.539756419145345,
+    "in_context_loss": 5.027540162806588,
+    "loss": 6.433578382819087,
+    "acc": 0.4054,
+    "prob": 0.28960187503751234
+  },
+  {
+    "condition": "baseline",
+    "evaluator": "iwl_copy_avail",
+    "count": 5000,
+    "correct_count": 4837,
+    "in_context_acc": 0.9674,
+    "in_context_prob": 0.9647937607558521,
+    "in_context_loss": 0.1262171417385055,
+    "loss": 0.17544268860825687,
+    "acc": 0.9656,
+    "prob": 0.9358016981977587
+  },
+  {
+    "condition": "ablate_l2",
+    "evaluator": "icl",
+    "count": 5000,
+    "correct_count": 2475,
+    "in_context_acc": 0.495,
+    "in_context_prob": 0.4939063644846552,
+    "in_context_loss": 1.22949136126496,
+    "loss": 14.305052555847167,
+    "acc": 0.0,
+    "prob": 1.5285619765519453e-06
+  },
+  {
+    "condition": "ablate_l2",
+    "evaluator": "iwl_copy_avail",
+    "count": 5000,
+    "correct_count": 3046,
+    "in_context_acc": 0.6092,
+    "in_context_prob": 0.5983714152946037,
+    "in_context_loss": 1.3778260984435904,
+    "loss": 11.671155507850647,
+    "acc": 0.0,
+    "prob": 0.0003426005782452524
+  }
+]

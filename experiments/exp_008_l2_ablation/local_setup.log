@@ -1,0 +1,2 @@
+Local protocol bundling command initially encountered stdin encoding error; replaced by apply_patch plus ASCII-only manifest bundling. No experiment executed in that attempt.
+Remote setup: one SSH banner timeout after successful hostname/GPU query; Tailscale DERP responded. Task not started yet.

@@ -1,0 +1,12 @@
+# Retain configurations, scripts, reports and logs; large scientific artifacts
+# stay in the experiment directory and are identified by recorded hashes.
+**/features/
+**/runs/
+**/venv/
+**/*.timing.eqx
+**/*.eqx
+**/*.eqx.part
+**/raw/
+**/wheelhouse/
+**/*.h5
+**/*_results.tar.gz

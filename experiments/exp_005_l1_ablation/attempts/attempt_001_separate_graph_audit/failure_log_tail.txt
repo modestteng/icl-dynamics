@@ -1,0 +1,23 @@
+intervention_audit baseline {'q': {'preserved': True, 'max_abs_change': 0.0}, 'k': {'preserved': True, 'max_abs_change': 0.0}, 'v': {'preserved': True, 'max_abs_change': 0.0}}
+Opto being used...
+Traceback (most recent call last):
+  File "/home/ubuntu/research/icl-dynamics/exp_005_l1_ablation/run_eval.py", line 145, in <module>
+    np.testing.assert_allclose(actual, ref, rtol=2e-5, atol=3e-6)
+  File "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/venv/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 1504, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/usr/lib/python3.10/contextlib.py", line 79, in inner
+    return func(*args, **kwds)
+  File "/home/ubuntu/research/icl-dynamics/exp_001_hardware_check/venv/lib/python3.10/site-packages/numpy/testing/_private/utils.py", line 797, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=2e-05, atol=3e-06
+
+Mismatched elements: 317 / 320 (99.1%)
+Max absolute difference: 0.0056048
+Max relative difference: 0.18532567
+ x: array([[[[ 0.240168, -0.613327,  0.671091,  1.444417,  0.378579,
+           1.361548,  0.131252,  0.427114],
+         [-1.122902,  1.381621,  0.229935, -0.845184, -0.572092,...
+ y: array([[[[ 0.239687, -0.613004,  0.670414,  1.442935,  0.378485,
+           1.361348,  0.131519,  0.427944],
+         [-1.124281,  1.380318,  0.23214 , -0.8422  , -0.57644 ,...

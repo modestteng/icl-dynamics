@@ -1,0 +1,11 @@
+final_checkpoint_audit 103 icl
+final_checkpoint_audit 103 ciwl
+final_checkpoint_audit 103 random
+final_checkpoint_audit 104 icl
+final_checkpoint_audit 104 ciwl
+final_checkpoint_audit 104 random
+Traceback (most recent call last):
+  File "/home/ubuntu/research/icl-dynamics/exp_003_sequence_classification/final_audit.py", line 114, in <module>
+    else selected[n][metric]-random[n][metric])
+TypeError: numpy boolean subtract, the `-` operator, is not supported, use the bitwise_xor, the `^` operator, or the logical_xor function instead.
+

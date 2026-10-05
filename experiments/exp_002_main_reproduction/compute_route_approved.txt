@@ -1,0 +1,1 @@
+2026-10-02 user explicitly directed approximate timing only and use Windows RTX 4070 for this one main experiment. Do not keep probing to obtain precise total timing.

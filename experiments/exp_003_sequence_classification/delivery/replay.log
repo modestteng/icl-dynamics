@@ -1,0 +1,18 @@
+data shape 0: 12984 class split: [12800, 0, 184]
+replayed 65536 elapsed_seconds 9.16
+replayed 131072 elapsed_seconds 10.18
+replayed 196608 elapsed_seconds 11.19
+replayed 262144 elapsed_seconds 12.2
+replayed 327680 elapsed_seconds 13.16
+replayed 393216 elapsed_seconds 14.06
+replayed 458752 elapsed_seconds 14.99
+replayed 524288 elapsed_seconds 15.81
+replayed 589824 elapsed_seconds 16.71
+replayed 655360 elapsed_seconds 17.56
+replayed 720896 elapsed_seconds 18.37
+replayed 786432 elapsed_seconds 19.23
+replayed 851968 elapsed_seconds 20.19
+replayed 917504 elapsed_seconds 21.05
+replayed 983040 elapsed_seconds 21.99
+replayed 1000000 elapsed_seconds 22.6
+{"stage": "index replay and structural audit only; strategy classification criterion pending", "sequences": 1000000, "candidate_pool": "proposed first 10M of original 20M; no expansion run yet", "reference_batch_checks": 6, "rng_checkpoint_match": true, "exact_match_count": 49488, "nonidentical_same_class_count": 950512, "both_strategies_viable_count": 1000000, "expected_exact_match_probability": 0.05, "elapsed_seconds": 24.854727455999992, "devices": ["cuda:0"]}

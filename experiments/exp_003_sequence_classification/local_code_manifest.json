@@ -1,0 +1,16 @@
+{
+  "protocol_draft.json": "ea340c8f41684688a0a14a853a9f59a8ba3aad898f6e8d6e1edbdff59bcff517",
+  "sync_pilot.ps1": "b742bbe49e6fa55aa1c99dad286211fa473321207818fc3a7592cf052e42d6c7",
+  "register_replay_task.ps1": "50beb81b1997a8470b35ee96257eea6a055c9ad06ee96bed77b992bc0b128b5b",
+  "register_pilot_task.ps1": "019f5860f1dff44b4e7c5df74fb45b3759b3e1d5af8e4d405eb4c42ea2ab95e3",
+  "remote_control.py": "6a327caf08004b21da79fedc42a4c798cdb54d2a96ff8fe00a1ab1054bea1ce5",
+  "run_pilot.sh": "5fddb916b124858b79ddd0677d3d24ceed303613c8b817d39598388fdad0f940",
+  "replay_pilot.sh": "108c80b4b3b09bca64ef585b32e638c97802606eed3a8b063c35494f00a93d52",
+  "status_pilot.ps1": "ca2044739fc59577a41a1876eb0ea69dc4496f281a7036a1263e6f4cf49c1fd7",
+  "run_pilot_task.ps1": "496c01773957ad92b1c91b89c5ebdbd1d7a3ce793fa4690a30a994c045813965",
+  "score_and_validate.py": "2a078c16d9d6cdfc8fcb812397fd14a83b30c9a262a3e9cb6d047a49390c026c",
+  "replay_indices.py": "8b69a305ef78cb3051dabd9d6884a5a7e4a7b17cfc3c6b65c39f946fe7c0c12b",
+  "remote_prepare.json": "4ce31164a6fd0f9b2159d6eb1f6f3312a2078b51afba0cbaad313bc2a249a6a7",
+  "run_replay_task.ps1": "0c36b0ebc3a60aa12c469970c7bd3409ddcc1d990bbeec3119114fedec861848",
+  "protocol.md": "188b7dee9ed98c24604e3f09fc8d9fdea7e1d17f31087493a3cde481420a218e"
+}

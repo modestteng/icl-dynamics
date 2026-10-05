@@ -1,0 +1,12 @@
+{
+  "target_sequences": 20000000,
+  "training_pid": 640,
+  "process_start_ticks": "4762",
+  "request": "User requested an integer endpoint after observing the target behavior",
+  "state": "training_stopped_at_saved_boundary",
+  "started_utc": "2026-10-03T08:49:59.231096+00:00",
+  "checkpoint": "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main_resume_00002950016/checkpoints/00020000000.eqx",
+  "checkpoint_bytes": 20641192,
+  "checkpoint_sha256": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d",
+  "stopped_utc": "2026-10-03T08:58:22.097303+00:00"
+}

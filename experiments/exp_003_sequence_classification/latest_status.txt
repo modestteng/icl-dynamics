@@ -1,0 +1,11 @@
+{"TaskName":"icl-dynamics-exp003-pilot","State":4}
+{"LastTaskResult":267009,"LastRunTime":"2026-10-03T03:06:06-07:00"}
+score_and_validate
+replayed 851968 elapsed_seconds 20.19
+replayed 917504 elapsed_seconds 21.05
+replayed 983040 elapsed_seconds 21.99
+replayed 1000000 elapsed_seconds 22.6
+{"stage": "index replay and structural audit only; strategy classification criterion pending", "sequences": 1000000, "candidate_pool": "proposed first 10M of original 20M; no expansion run yet", "reference_batch_checks": 6, "rng_checkpoint_match": true, "exact_match_count": 49488, "nonidentical_same_class_count": 950512, "both_strategies_viable_count": 1000000, "expected_exact_match_probability": 0.05, "elapsed_seconds": 24.854727455999992, "devices": ["cuda:0"]}
+numerical_audit_passed 2000000 elapsed 13.497233854000001
+NVIDIA GeForce RTX 4070 Laptop GPU, 1240 MiB, 35 %
+

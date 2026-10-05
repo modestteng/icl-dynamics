@@ -1,0 +1,82 @@
+{
+  "stages": [
+    0,
+    2000000,
+    4400000,
+    8000000,
+    20000000
+  ],
+  "fixed_donor_iter": 20000000,
+  "checkpoint_sha256": {
+    "0": "cc5d646d6dd6f6e0ff5632921904d57577e19ef11df59d1150ca3fb2437646c0",
+    "2000000": "6cc17173f9f19c5a8c565d387b5d1429f4486a889c5e5fd523686107f8524c62",
+    "4400000": "627972690994b53311e3ced2714afc316f4b64687706d8d37e1b7e47457da7b5",
+    "8000000": "c6a1d4669004061b82a93d2bbcd37694c4a7ce77547d79cd6e2c2147d840dcac",
+    "20000000": "95b0609902e00b4de117ec05f21293ccfc490ff38843acac144a07033ebedd0d"
+  },
+  "config_sha256": "5c6cadc87ba1f0796681116f8c222e742200be51658481c579776e5e8b585223",
+  "evaluation_sha256": "634ee065b3183599a409c325960ad5fbe4388236a4fc60143794467da3c5efec",
+  "source_sha256": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+  },
+  "baseline_curve_sha256": "6708535d3782265cb877fc7be02c101a16e9dfaf29b108ad9def094d42fc93ba",
+  "script_sha256": "1acfd841a5ae6e0cdba3093a447809496096237fd082dc912845ae4d6d4b76cc",
+  "protocol_sha256": "e9735590bcea700841afe61a6340045caa483440d800b3580bab5454185c9ecd",
+  "plot_sha256": "43de904b59a822599cee1f46f1b7a3c02e1542491f4bb2c3e770ceae2250b51b",
+  "author_forward_sha256": "4d98d40d8d236a64293c10d55dfefec0352b9029269bafb5b656901bbf84e94e",
+  "author_figure3b_cells_sha256": "bb1c409bdfc9f1a78d941bf29acf427317b6d589a7a747a97b9d51d3a58fd61d",
+  "graft_flags": {
+    "opto_specific_fn": null,
+    "opto_induction_heads": null,
+    "opto_induction_head_strength": 1.0,
+    "opto_match_heads": null,
+    "opto_match_head_temperature": 0.0,
+    "opto_prev_token_heads": null,
+    "opto_prev_token_head_strength": 1.0,
+    "opto_prev_token_only_label": false,
+    "opto_disallow_prev_token_heads": null,
+    "opto_disallow_prev_token_only_label": false,
+    "opto_ablate_heads": null,
+    "opto_ablate_embedding": false,
+    "opto_perfect_copy_from_head_pattern": null,
+    "opto_set_head_temperature": null,
+    "opto_final_layer_silence_non_label_attn": null,
+    "opto_preserve_patterns": false,
+    "opto_preserve_values": false,
+    "opto_preserve_queries": false,
+    "opto_preserve_keys": false,
+    "opto_graft_in_model_ckpt": null,
+    "opto_graft_in_model_cfg": null,
+    "opto_graft_in_model_till_layer": null,
+    "opto_graft_out_model_ckpt": "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main_resume_00002950016/checkpoints/00020000000.eqx",
+    "opto_graft_out_model_cfg": "/home/ubuntu/research/icl-dynamics/exp_002_main_reproduction/runs/main/config.json",
+    "opto_graft_out_model_from_layer": 0
+  },
+  "batch_size": 1024,
+  "eval_key": [
+    0,
+    0
+  ],
+  "variable_first_half": "source checkpoint input embeddings and L1",
+  "fixed_second_half": "donor L2, final norm and unembedding",
+  "preserved_qkv_activations": false,
+  "evaluators": [
+    "train_eval",
+    "icl",
+    "iwl_copy_avail",
+    "flip_icl"
+  ],
+  "sequences_per_evaluator": 5000,
+  "precision": "float32, original default matmul precision",
+  "jax": "0.4.26",
+  "equinox": "0.11.4",
+  "devices": [
+    "cuda:0"
+  ],
+  "donor_parameter_arrays_verified": 16,
+  "no_training": true
+}

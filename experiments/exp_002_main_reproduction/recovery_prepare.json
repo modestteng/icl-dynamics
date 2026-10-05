@@ -1,0 +1,5 @@
+{
+  "stderr": "w\u0000s\u0000l\u0000:\u0000 \u0000�hKm0R \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006tM�n\f�FO*g\\��P0R \u0000W\u0000S\u0000L\u0000\u00020N\u0000A\u0000T\u0000 \u0000!j\u000f_\u000bN�v \u0000W\u0000S\u0000L\u0000 \u0000\rN/e\u0001c \u0000l\u0000o\u0000c\u0000a\u0000l\u0000h\u0000o\u0000s\u0000t\u0000 \u0000�N\u0006t\u00020\r\u0000\n\u0000wsl: Failed to start the systemd user session for 'ubuntu'. See journalctl for more details.\n",
+  "exit_code": 0,
+  "stdout": "1f14a7b8f07c6cb0286e171d36e52a1048267f8bbfaa1ec131e339599e042a88  run_pipeline_wsl.sh\nencoder_install.log\ninstalled_constraints.txt\npipeline.exit_code\npipeline.finished\npipeline.linux_pid\npipeline.stage\npipeline.started\n"
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_id": "exp_010_ciwl_data_generation",
+  "sequences": 5000,
+  "seed": 20261004,
+  "training_classes": 12800,
+  "exemplars_per_class": 20,
+  "context_len": 2,
+  "burstiness": 0,
+  "no_support": true,
+  "unique_rest": true,
+  "assign_query_label_random": true,
+  "fs_relabel": null,
+  "noise_scale": 0.0,
+  "scope": "generation_and_structural_audit_only_no_training",
+  "output_group": "ciwl_augmentation"
+}

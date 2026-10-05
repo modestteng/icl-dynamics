@@ -1,0 +1,24 @@
+{
+  "comment_text": "",
+  "core-metadata": {
+    "sha256": "f3c72b2e053f0e8b3f9c255e6bc35f5b6ee48a4dc6165e0df76c547a519b3e4c"
+  },
+  "digests": {
+    "blake2b_256": "376d121efd7382d5b0284239f4ab1fc1590d86d34ed4a4a2fdb13b30ca8e5740",
+    "md5": "28e0d4512f220a30cc3618dc37c38ba2",
+    "sha256": "ee53ccca76a6fc08fb9701aa95b6ceb242cdaab118c3bb152af4e579af792728"
+  },
+  "downloads": -1,
+  "filename": "nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl",
+  "has_sig": false,
+  "md5_digest": "28e0d4512f220a30cc3618dc37c38ba2",
+  "packagetype": "bdist_wheel",
+  "python_version": "py3",
+  "requires_python": ">=3",
+  "size": 410594774,
+  "upload_time": "2023-04-19T15:50:03",
+  "upload_time_iso_8601": "2023-04-19T15:50:03.519916Z",
+  "url": "https://files.pythonhosted.org/packages/37/6d/121efd7382d5b0284239f4ab1fc1590d86d34ed4a4a2fdb13b30ca8e5740/nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl",
+  "yanked": false,
+  "yanked_reason": null
+}

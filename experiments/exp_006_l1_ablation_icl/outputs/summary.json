@@ -1,0 +1,300 @@
+{
+  "results": {
+    "baseline": {
+      "icl": {
+        "in_context_acc": 0.5408,
+        "in_context_loss": 5.0303404284593,
+        "in_context_prob": 0.5397577864557687,
+        "loss": 6.435439058718691,
+        "correct_count": 2704,
+        "count": 5000
+      }
+    },
+    "preserve_qkv": {
+      "icl": {
+        "in_context_acc": 0.5402,
+        "in_context_loss": 5.174207117648265,
+        "in_context_prob": 0.5397020820226597,
+        "loss": 6.792709218095778,
+        "correct_count": 2701,
+        "count": 5000
+      }
+    },
+    "recompute_k": {
+      "icl": {
+        "in_context_acc": 0.5076,
+        "in_context_loss": 2.6346767943005203,
+        "in_context_prob": 0.5066174870414876,
+        "loss": 5.569412391434423,
+        "correct_count": 2538,
+        "count": 5000
+      }
+    },
+    "recompute_v": {
+      "icl": {
+        "in_context_acc": 0.5098,
+        "in_context_loss": 2.4047720315576373,
+        "in_context_prob": 0.5064821183765401,
+        "loss": 13.235032243919372,
+        "correct_count": 2549,
+        "count": 5000
+      }
+    },
+    "recompute_q": {
+      "icl": {
+        "in_context_acc": 0.5316,
+        "in_context_loss": 5.2848457123929595,
+        "in_context_prob": 0.5334414806496159,
+        "loss": 6.834579651957296,
+        "correct_count": 2658,
+        "count": 5000
+      }
+    },
+    "ablate_l1": {
+      "icl": {
+        "in_context_acc": 0.5066,
+        "in_context_loss": 2.606137127383948,
+        "in_context_prob": 0.506089402524157,
+        "loss": 12.769299120426178,
+        "correct_count": 2533,
+        "count": 5000
+      }
+    }
+  },
+  "paired_vs_baseline": {
+    "baseline": {
+      "icl": {
+        "accuracy_delta": 0.0,
+        "normal95_interval": [
+          0.0,
+          0.0
+        ],
+        "correct_to_wrong": 0,
+        "wrong_to_correct": 0
+      }
+    },
+    "preserve_qkv": {
+      "icl": {
+        "accuracy_delta": -0.0006,
+        "normal95_interval": [
+          -0.0064280580519527585,
+          0.005228058051952759
+        ],
+        "correct_to_wrong": 112,
+        "wrong_to_correct": 109
+      }
+    },
+    "recompute_k": {
+      "icl": {
+        "accuracy_delta": -0.0332,
+        "normal95_interval": [
+          -0.052748919331067956,
+          -0.013651080668932048
+        ],
+        "correct_to_wrong": 1329,
+        "wrong_to_correct": 1163
+      }
+    },
+    "recompute_v": {
+      "icl": {
+        "accuracy_delta": -0.031,
+        "normal95_interval": [
+          -0.04941414034357614,
+          -0.012585859656423858
+        ],
+        "correct_to_wrong": 1183,
+        "wrong_to_correct": 1028
+      }
+    },
+    "recompute_q": {
+      "icl": {
+        "accuracy_delta": -0.0092,
+        "normal95_interval": [
+          -0.01498276832296569,
+          -0.0034172316770343103
+        ],
+        "correct_to_wrong": 132,
+        "wrong_to_correct": 86
+      }
+    },
+    "ablate_l1": {
+      "icl": {
+        "accuracy_delta": -0.0342,
+        "normal95_interval": [
+          -0.052907919484685866,
+          -0.015492080515314137
+        ],
+        "correct_to_wrong": 1227,
+        "wrong_to_correct": 1056
+      }
+    }
+  },
+  "reference_exp005_results": {
+    "baseline": {
+      "train_eval": {
+        "in_context_acc": 0.9848,
+        "in_context_loss": 0.040269448650760646,
+        "in_context_prob": 0.9818212782347807,
+        "loss": 0.06474462769943638,
+        "correct_count": 4924,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.9674,
+        "in_context_loss": 0.1262171417385055,
+        "in_context_prob": 0.9647937607558521,
+        "loss": 0.17544268860825687,
+        "correct_count": 4837,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.0286,
+        "in_context_loss": 12.57528831907102,
+        "in_context_prob": 0.03357299154686853,
+        "loss": 12.636209483566136,
+        "correct_count": 143,
+        "count": 5000
+      }
+    },
+    "preserve_qkv": {
+      "train_eval": {
+        "in_context_acc": 0.9832,
+        "in_context_loss": 0.04589280851963247,
+        "in_context_prob": 0.9799522160256398,
+        "loss": 0.0868681786797184,
+        "correct_count": 4916,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.9676,
+        "in_context_loss": 0.13498950303595922,
+        "in_context_prob": 0.9636435937787461,
+        "loss": 0.20558173495744994,
+        "correct_count": 4838,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.0294,
+        "in_context_loss": 12.626643408296738,
+        "in_context_prob": 0.03576355013532955,
+        "loss": 12.719590683670715,
+        "correct_count": 147,
+        "count": 5000
+      }
+    },
+    "recompute_k": {
+      "train_eval": {
+        "in_context_acc": 0.57,
+        "in_context_loss": 2.0517852448980674,
+        "in_context_prob": 0.5667512498634079,
+        "loss": 2.9289407311842313,
+        "correct_count": 2850,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.5716,
+        "in_context_loss": 2.0582715373613953,
+        "in_context_prob": 0.5688457772602327,
+        "loss": 3.0308117092121507,
+        "correct_count": 2858,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.442,
+        "in_context_loss": 3.0016697976044924,
+        "in_context_prob": 0.4445227407244587,
+        "loss": 3.8430583831621683,
+        "correct_count": 2210,
+        "count": 5000
+      }
+    },
+    "recompute_v": {
+      "train_eval": {
+        "in_context_acc": 0.5798,
+        "in_context_loss": 1.5891400847031554,
+        "in_context_prob": 0.5754832450989638,
+        "loss": 13.150959615802766,
+        "correct_count": 2899,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.578,
+        "in_context_loss": 1.5918922602335097,
+        "in_context_prob": 0.5735009015027985,
+        "loss": 13.166573341846465,
+        "correct_count": 2890,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.4226,
+        "in_context_loss": 2.544159691997509,
+        "in_context_prob": 0.4276358309027601,
+        "loss": 14.086314370632172,
+        "correct_count": 2113,
+        "count": 5000
+      }
+    },
+    "recompute_q": {
+      "train_eval": {
+        "in_context_acc": 0.9724,
+        "in_context_loss": 0.0817361428407658,
+        "in_context_prob": 0.9698791563230221,
+        "loss": 0.13605451700557022,
+        "correct_count": 4862,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.946,
+        "in_context_loss": 0.21920909661891932,
+        "in_context_prob": 0.9430387250975393,
+        "loss": 0.3111664453143545,
+        "correct_count": 4730,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.0484,
+        "in_context_loss": 12.002653592210056,
+        "in_context_prob": 0.05405087428131354,
+        "loss": 12.117177643137053,
+        "correct_count": 242,
+        "count": 5000
+      }
+    },
+    "ablate_l1": {
+      "train_eval": {
+        "in_context_acc": 0.558,
+        "in_context_loss": 1.7024902602329468,
+        "in_context_prob": 0.5511788275190406,
+        "loss": 13.162710690546035,
+        "correct_count": 2790,
+        "count": 5000
+      },
+      "iwl_copy_avail": {
+        "in_context_acc": 0.553,
+        "in_context_loss": 1.6876621821183573,
+        "in_context_prob": 0.550192829626626,
+        "loss": 13.156249956893921,
+        "correct_count": 2765,
+        "count": 5000
+      },
+      "flip_icl": {
+        "in_context_acc": 0.4444,
+        "in_context_loss": 2.3726205924299864,
+        "in_context_prob": 0.44579179223112103,
+        "loss": 13.81799672908783,
+        "correct_count": 2222,
+        "count": 5000
+      }
+    }
+  },
+  "original_logged_baseline": {
+    "icl": 0.5408
+  },
+  "baseline_difference_vs_original": {
+    "icl": 0.0
+  },
+  "comparison_scope": "New ICL results plus frozen exp005 CIWL/Flip results on the same20M checkpoint",
+  "elapsed_seconds": 31.390084886999997,
+  "uncertainty": "Paired intervals are evaluation-sample variation conditional on one fixed model",
+  "no_training": true
+}

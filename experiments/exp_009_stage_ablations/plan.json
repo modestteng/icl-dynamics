@@ -1,0 +1,488 @@
+[
+  {
+    "stage": 20000000,
+    "condition": "embedding_only",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "1:0",
+      "1:1",
+      "1:2",
+      "1:3",
+      "1:4",
+      "1:5",
+      "1:6",
+      "1:7"
+    ],
+    "job_id": "00_00020000000_embedding_only_icl"
+  },
+  {
+    "stage": 20000000,
+    "condition": "embedding_only",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "1:0",
+      "1:1",
+      "1:2",
+      "1:3",
+      "1:4",
+      "1:5",
+      "1:6",
+      "1:7"
+    ],
+    "job_id": "01_00020000000_embedding_only_iwl_copy_avail"
+  },
+  {
+    "stage": 20000000,
+    "condition": "embedding_only",
+    "evaluator": "pure_iwl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "1:0",
+      "1:1",
+      "1:2",
+      "1:3",
+      "1:4",
+      "1:5",
+      "1:6",
+      "1:7"
+    ],
+    "job_id": "02_00020000000_embedding_only_pure_iwl"
+  },
+  {
+    "stage": 20000000,
+    "condition": "baseline",
+    "evaluator": "pure_iwl",
+    "flags": [],
+    "job_id": "03_00020000000_baseline_pure_iwl"
+  },
+  {
+    "stage": 4000000,
+    "condition": "baseline",
+    "evaluator": "icl",
+    "flags": [],
+    "job_id": "04_00004000000_baseline_icl"
+  },
+  {
+    "stage": 4000000,
+    "condition": "baseline",
+    "evaluator": "iwl_copy_avail",
+    "flags": [],
+    "job_id": "05_00004000000_baseline_iwl_copy_avail"
+  },
+  {
+    "stage": 4000000,
+    "condition": "preserve_qkv",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "06_00004000000_preserve_qkv_icl"
+  },
+  {
+    "stage": 4000000,
+    "condition": "preserve_qkv",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "07_00004000000_preserve_qkv_iwl_copy_avail"
+  },
+  {
+    "stage": 4000000,
+    "condition": "recompute_k",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_values"
+    ],
+    "job_id": "08_00004000000_recompute_k_icl"
+  },
+  {
+    "stage": 4000000,
+    "condition": "recompute_k",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_values"
+    ],
+    "job_id": "09_00004000000_recompute_k_iwl_copy_avail"
+  },
+  {
+    "stage": 4000000,
+    "condition": "recompute_v",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys"
+    ],
+    "job_id": "10_00004000000_recompute_v_icl"
+  },
+  {
+    "stage": 4000000,
+    "condition": "recompute_v",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys"
+    ],
+    "job_id": "11_00004000000_recompute_v_iwl_copy_avail"
+  },
+  {
+    "stage": 4000000,
+    "condition": "recompute_q",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "12_00004000000_recompute_q_icl"
+  },
+  {
+    "stage": 4000000,
+    "condition": "recompute_q",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "13_00004000000_recompute_q_iwl_copy_avail"
+  },
+  {
+    "stage": 4000000,
+    "condition": "ablate_l1",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7"
+    ],
+    "job_id": "14_00004000000_ablate_l1_icl"
+  },
+  {
+    "stage": 4000000,
+    "condition": "ablate_l1",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7"
+    ],
+    "job_id": "15_00004000000_ablate_l1_iwl_copy_avail"
+  },
+  {
+    "stage": 8000000,
+    "condition": "baseline",
+    "evaluator": "icl",
+    "flags": [],
+    "job_id": "16_00008000000_baseline_icl"
+  },
+  {
+    "stage": 8000000,
+    "condition": "baseline",
+    "evaluator": "iwl_copy_avail",
+    "flags": [],
+    "job_id": "17_00008000000_baseline_iwl_copy_avail"
+  },
+  {
+    "stage": 8000000,
+    "condition": "preserve_qkv",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "18_00008000000_preserve_qkv_icl"
+  },
+  {
+    "stage": 8000000,
+    "condition": "preserve_qkv",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "19_00008000000_preserve_qkv_iwl_copy_avail"
+  },
+  {
+    "stage": 8000000,
+    "condition": "recompute_k",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_values"
+    ],
+    "job_id": "20_00008000000_recompute_k_icl"
+  },
+  {
+    "stage": 8000000,
+    "condition": "recompute_k",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_values"
+    ],
+    "job_id": "21_00008000000_recompute_k_iwl_copy_avail"
+  },
+  {
+    "stage": 8000000,
+    "condition": "recompute_v",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys"
+    ],
+    "job_id": "22_00008000000_recompute_v_icl"
+  },
+  {
+    "stage": 8000000,
+    "condition": "recompute_v",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_queries",
+      "--opto_preserve_keys"
+    ],
+    "job_id": "23_00008000000_recompute_v_iwl_copy_avail"
+  },
+  {
+    "stage": 8000000,
+    "condition": "recompute_q",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "24_00008000000_recompute_q_icl"
+  },
+  {
+    "stage": 8000000,
+    "condition": "recompute_q",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7",
+      "--opto_preserve_keys",
+      "--opto_preserve_values"
+    ],
+    "job_id": "25_00008000000_recompute_q_iwl_copy_avail"
+  },
+  {
+    "stage": 8000000,
+    "condition": "ablate_l1",
+    "evaluator": "icl",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7"
+    ],
+    "job_id": "26_00008000000_ablate_l1_icl"
+  },
+  {
+    "stage": 8000000,
+    "condition": "ablate_l1",
+    "evaluator": "iwl_copy_avail",
+    "flags": [
+      "--opto_ablate_heads",
+      "0:0",
+      "0:1",
+      "0:2",
+      "0:3",
+      "0:4",
+      "0:5",
+      "0:6",
+      "0:7"
+    ],
+    "job_id": "27_00008000000_ablate_l1_iwl_copy_avail"
+  }
+]

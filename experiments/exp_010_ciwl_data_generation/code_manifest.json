@@ -1,0 +1,15 @@
+{
+  "commit": "d75a6ff76d124364ca4517ae869ec1b9920e79f7",
+  "unchanged_author_source_sha256": {
+    "main.py": "85814cae9c85cadd498d7cb1376708c9f9f2bcac237127943ff4697268754815",
+    "main_utils.py": "07bfe1c34366643bc89d8b9a4194c195846e462be31ddf432734b0a817b8727d",
+    "models.py": "2509f2a436dd16336f496769bb3d43df89e579cefd178b394d409b46c8892f99",
+    "samplers.py": "d285d7d6796996162c0e445bd4d93cdd54c8e9d400bb69e81d054e1bc7a841da",
+    "opto.py": "46cbdcc2ef3c7a8688dfb365dcdc7fac753c05e96e8fee47373e2b1a2ad5d1b3"
+  },
+  "wrapper_files": [
+    "run_generation.sh"
+  ],
+  "plan_sha256": "96be7bb567057df002005e53387425813a0bcd1eb2a0aa96294d9e9160275a48",
+  "role": "invoke original data sampling APIs and capture outputs; no model or sampler source edits"
+}

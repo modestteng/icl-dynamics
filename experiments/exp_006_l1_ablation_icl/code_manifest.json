@@ -1,0 +1,15 @@
+{
+  "run_eval.py": "8f288fb105bc5a4d9e65b9dbb573556dda2d0e9619ed783174effab8c2a80df4",
+  "run_task.ps1": "b43390d54a2a865fbdcd800fc2e70a28013bbb63327f6bc331a2c135dd33016d",
+  "status.ps1": "6bb6b424031973972e87e34067e8e0c1eddc8c34d2d54184a967529892c960c6",
+  "expected_baseline.json": "e274aeaa89c80e8df7484b1e27ed93cb6586362065ca3ff79dffba844bc8bd7e",
+  "collect.ps1": "2a766e0cd38465e63c4251c13a6e680eebdf61d2ffce844c584e23d26632f18f",
+  "run_eval.sh": "2f70a9bda7bd16ece161dd2a96b28760a252d4bf26bed7c10c93549ffa23d075",
+  "plot_results.py": "4f4d4aca26a2a73cc6b846717be379b24590a273e335d93ef8d104eec58b577d",
+  "register_task.ps1": "288bbf2033234c94c7a99820e531d24e84aab6bec0e9cc529b1746c016ce6a24",
+  "protocol.md": "e027863ebad3b4ac28089961e392bc48d88be80d3e00360d8f4abf6a49ab9564",
+  "reference_exp005/summary.json": "d8c59934e5b1125da2aea0ce0b10a20ce263065f1745293165dc6343cd4f0180",
+  "reference_exp005/provenance.json": "7e28b269a28fe262b09f7c04eb0068049f089bc649d9c2c007b429fcf2372126",
+  "author_reference/notebook_cells.json": "1a0f57ba6e9456b2e06d05aae5780bd793541eaa6e6e81d4202406459bd28c2f",
+  "author_reference/forward_metrics.py": "4d98d40d8d236a64293c10d55dfefec0352b9029269bafb5b656901bbf84e94e"
+}

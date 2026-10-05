@@ -1,0 +1,38 @@
+{
+  "icl": [
+    {
+      "row": 0,
+      "l1_unchanged": true,
+      "l2_v_zero": true,
+      "l2_attention_output_zero": true,
+      "l2_output_equals_l1_output": true,
+      "original_final_norm_receives_l1_output": true
+    },
+    {
+      "row": 4999,
+      "l1_unchanged": true,
+      "l2_v_zero": true,
+      "l2_attention_output_zero": true,
+      "l2_output_equals_l1_output": true,
+      "original_final_norm_receives_l1_output": true
+    }
+  ],
+  "iwl_copy_avail": [
+    {
+      "row": 0,
+      "l1_unchanged": true,
+      "l2_v_zero": true,
+      "l2_attention_output_zero": true,
+      "l2_output_equals_l1_output": true,
+      "original_final_norm_receives_l1_output": true
+    },
+    {
+      "row": 4999,
+      "l1_unchanged": true,
+      "l2_v_zero": true,
+      "l2_attention_output_zero": true,
+      "l2_output_equals_l1_output": true,
+      "original_final_norm_receives_l1_output": true
+    }
+  ]
+}

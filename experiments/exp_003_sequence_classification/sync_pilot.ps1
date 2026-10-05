@@ -1,0 +1,3 @@
+$ErrorActionPreference='Stop'
+& 'C:\Program Files\WSL\wsl.exe' -d Ubuntu-22.04 --exec /bin/bash -lc 'mkdir -p ~/research/icl-dynamics/exp_003_sequence_classification; cp /mnt/d/research/icl-dynamics/exp_003_sequence_classification/*.py /mnt/d/research/icl-dynamics/exp_003_sequence_classification/*.sh /mnt/d/research/icl-dynamics/exp_003_sequence_classification/protocol.md ~/research/icl-dynamics/exp_003_sequence_classification/; sha256sum ~/research/icl-dynamics/exp_001_hardware_check/source/{main.py,main_utils.py,models.py,samplers.py,opto.py}; ~/research/icl-dynamics/exp_001_hardware_check/venv/bin/python -m py_compile ~/research/icl-dynamics/exp_003_sequence_classification/*.py'
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

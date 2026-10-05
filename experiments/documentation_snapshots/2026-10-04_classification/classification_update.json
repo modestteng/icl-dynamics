@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-04",
+  "changed_files": [
+    {
+      "path": "experiments/results.tsv",
+      "before_sha256": "43e1405395191254e9d90bf628b14a3d527423ec1c29a4679fde8f7e59ddd16f",
+      "after_sha256": "92dad5f04abe844e455473d9480c6e2031631af0891e5b042df57bc70af07fb6",
+      "original_columns_preserved": true
+    },
+    {
+      "path": "experiments/exp_003_sequence_classification/report.md",
+      "before_sha256": "5ce9e4574d56198b4fb1372820ed20d7c4de10fa1fdaf6072bcc4225e16b0acc",
+      "after_sha256": "25ca13213695b56d7df23322d3d2c4b5c3be1afe73a599b46dcc3e3df9f404f7",
+      "original_body_preserved": true
+    },
+    {
+      "path": "experiments/exp_004_l1_attention/report.md",
+      "before_sha256": "71df355c37ec8a39237f27332b93d57c0828c899e297cab0d8199464c190879b",
+      "after_sha256": "95c01f1741b6f54335ad84c61622b1329f743806f169778991837c43ac159ab4",
+      "original_body_preserved": true
+    },
+    {
+      "path": "experiments/exp_005_l1_ablation/report.md",
+      "before_sha256": "5218ef47903aaf1ec6a8a7ff275591e165fa2543a50a2d4708ebd94f70bdb64c",
+      "after_sha256": "adc6e060cda52ec15c4a71d5d5c4984c2ad6762e9d06eb4a3f7607d5590f186f",
+      "original_body_preserved": true
+    },
+    {
+      "path": "experiments/exp_006_l1_ablation_icl/report.md",
+      "before_sha256": "ca57c2114eba82303ef7f1adedb936b64cd90aaec60b314b87f903a266d682d6",
+      "after_sha256": "ae9fdd9c56602a1754a8ea84315955cf1ad365adf87eb78cf3372bb0eca9126f",
+      "original_body_preserved": true
+    },
+    {
+      "path": "experiments/exp_007_l2_reuse/report.md",
+      "before_sha256": "f08f4101e403640bf69ed8a537aa72df67a599a6daa29aab54c93c7108477a24",
+      "after_sha256": "39f2be94fdd04bec30c3cd3f3b68157f12179b46e9da1a74af8f8269ab0f0c8e",
+      "original_body_preserved": true
+    },
+    {
+      "path": "experiments/exp_008_l2_ablation/report.md",
+      "before_sha256": "1f6d865c51031eb936b58130b47ad7b49e183e6f6fa287ce33c932da6ed928e8",
+      "after_sha256": "b09ad0df128a2a0772a589f774bb794fb0b110054eea30176899480093dfc913",
+      "original_body_preserved": true
+    },
+    {
+      "path": "experiments/exp_009_stage_ablations/report.md",
+      "before_sha256": "797296693ecb46cadc7f6e02915d87e9aeca5a7b2cd7d6d78236f9eeeeb49621",
+      "after_sha256": "bf432f085df331f624e9a87000fbb08f55a348b468b927d35ab037a7c30cf0c2",
+      "original_body_preserved": true
+    },
+    {
+      "path": "experiments/experiment_classification.md",
+      "after_sha256": "79f31bcb9df8d4b715b2dd3df77d6a4d5f25cfdddd33ef857e7c1b369773aea6",
+      "new_file": true
+    },
+    {
+      "path": "notes.md",
+      "before_sha256": "a88aeacd629de35c311c29ed48b484f5c18a5b9a9e2a5a22f24f80767dc0ac1a",
+      "after_sha256": "49e5fd6d2b4cf888c27f90c36667506e50db7b2915e59989a14fbc583b51b5b1",
+      "original_history_preserved": true
+    }
+  ],
+  "source_scope": "local designated PDF and notebooks",
+  "no_experiments_run": true,
+  "raw_results_unchanged": true
+}

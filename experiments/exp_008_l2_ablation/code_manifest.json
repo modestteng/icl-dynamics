@@ -1,0 +1,13 @@
+{
+  "run_task.ps1": "502d1b7de79470a100e8c698f0f149e3a663a6c8c536344b21dde903b72be510",
+  "status.ps1": "ba29af9de6176b9f630b558e25febaf49f8ae496641696f43f5d611c3a00b057",
+  "expected_baseline.json": "db8158047318fb5556abfee53a80413422a4cdce3ca2d4e6df11d8636a6b1722",
+  "collect.ps1": "c5533d84829d794e8d3c90a637f462116864949551ccfcd7f2d678383ac6ae1f",
+  "run_cli.sh": "c7731adc14ef85306b16f6b74888d14978d1ff45928f77ba42e8ec9dcbc170e0",
+  "register_task.ps1": "8412486b6a8404edae258c693a82015306eb0ebdf0331033d77ccee94e7e235d",
+  "local_setup.log": "d28207e2a5ae033f1696a0f7091a5a34a14cf3a80949f03559c66979a49c91bd",
+  "protocol.md": "334ed75c01bbaffae3bb644a5ec07031a25e63afa2f507b560b3cbd1816ad9cc",
+  "prior_drafts/initial_qkv_zero_protocol.md": "3315e940c9de49316771ba9c13914701a1eed9b604e376e617a6662ec79688da",
+  "author_reference/visualize_runs.py": "3a34820985ba1a900e0afc2bdd2e5589256e00e89e6fb99522ff6b125a224b5a",
+  "author_reference/plot_utils.py": "8ffe1094ca6f090244edb24959b993dc3391f0ed4ffaec73b73fa9187a35edf9"
+}

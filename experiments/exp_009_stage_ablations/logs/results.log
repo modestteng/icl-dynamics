@@ -1,0 +1,56 @@
+{"stage": 20000000, "condition": "embedding_only", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2473, "in_context_acc": 0.4946, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": 0.49668961859282573, "in_context_loss": 1.1253013418040936, "full_prob": 1.0396402387240489e-06, "full_loss": 15.046838818740845}
+completed_jobs 1 of 28
+{"stage": 20000000, "condition": "embedding_only", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2984, "in_context_acc": 0.5968, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": 0.5895174709391078, "in_context_loss": 1.41905367070338, "full_prob": 0.0001733122567253186, "full_loss": 12.448201893424988}
+completed_jobs 2 of 28
+{"stage": 20000000, "condition": "embedding_only", "evaluator": "pure_iwl", "count": 5000, "in_context_correct_count": null, "in_context_acc": null, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": null, "in_context_loss": null, "full_prob": 0.00019349264665483203, "full_loss": 12.466990163612365}
+completed_jobs 3 of 28
+{"stage": 20000000, "condition": "baseline", "evaluator": "pure_iwl", "count": 5000, "in_context_correct_count": null, "in_context_acc": null, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": null, "in_context_loss": null, "full_prob": 3.0150393036420763e-05, "full_loss": 16.683152589702605, "baseline_log_difference": 0.0}
+completed_jobs 4 of 28
+{"stage": 4000000, "condition": "baseline", "evaluator": "icl", "count": 5000, "in_context_correct_count": 3772, "in_context_acc": 0.7544, "full_correct_count": 3545, "full_acc": 0.709, "in_context_prob": 0.7454185395204266, "in_context_loss": 0.6887041778969191, "full_prob": 0.10435038577498244, "full_loss": 3.21440668592453, "baseline_log_difference": 0.0}
+completed_jobs 5 of 28
+{"stage": 4000000, "condition": "baseline", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2838, "in_context_acc": 0.5676, "full_correct_count": 2543, "full_acc": 0.5086, "in_context_prob": 0.5655481729015307, "in_context_loss": 2.1157893103085628, "full_prob": 0.08078767791764557, "full_loss": 4.677909038311243, "baseline_log_difference": -0.00039999999999995595}
+completed_jobs 6 of 28
+{"stage": 4000000, "condition": "preserve_qkv", "evaluator": "icl", "count": 5000, "in_context_correct_count": 3781, "in_context_acc": 0.7562, "full_correct_count": 3496, "full_acc": 0.6992, "in_context_prob": 0.7441074204355187, "in_context_loss": 0.71783197699423, "full_prob": 0.09040786152884685, "full_loss": 3.4261110256910325}
+completed_jobs 7 of 28
+{"stage": 4000000, "condition": "preserve_qkv", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2843, "in_context_acc": 0.5686, "full_correct_count": 2259, "full_acc": 0.4518, "in_context_prob": 0.5676980706279131, "in_context_loss": 2.082033966061306, "full_prob": 0.05273877527061003, "full_loss": 5.223608024197817}
+completed_jobs 8 of 28
+{"stage": 4000000, "condition": "recompute_k", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2636, "in_context_acc": 0.5272, "full_correct_count": 1352, "full_acc": 0.2704, "in_context_prob": 0.5130281086941831, "in_context_loss": 0.994222055834718, "full_prob": 0.012010102887796074, "full_loss": 5.276137931966781}
+completed_jobs 9 of 28
+{"stage": 4000000, "condition": "recompute_k", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2781, "in_context_acc": 0.5562, "full_correct_count": 1271, "full_acc": 0.2542, "in_context_prob": 0.5488287002044381, "in_context_loss": 1.141257093153938, "full_prob": 0.014954848388564847, "full_loss": 5.614924696469307}
+completed_jobs 10 of 28
+{"stage": 4000000, "condition": "recompute_v", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2454, "in_context_acc": 0.4908, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": 0.4994693933538627, "in_context_loss": 1.1298446493939962, "full_prob": 7.503224003894502e-05, "full_loss": 10.30732925453186}
+completed_jobs 11 of 28
+{"stage": 4000000, "condition": "recompute_v", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2717, "in_context_acc": 0.5434, "full_correct_count": 3, "full_acc": 0.0006, "in_context_prob": 0.5360409424202924, "in_context_loss": 1.0995346298831274, "full_prob": 0.0001356848076277231, "full_loss": 10.537640928840638}
+completed_jobs 12 of 28
+{"stage": 4000000, "condition": "recompute_q", "evaluator": "icl", "count": 5000, "in_context_correct_count": 3461, "in_context_acc": 0.6922, "full_correct_count": 3112, "full_acc": 0.6224, "in_context_prob": 0.6846142947691766, "in_context_loss": 1.1501995645862766, "full_prob": 0.08605209227198202, "full_loss": 3.8636368300557136}
+completed_jobs 13 of 28
+{"stage": 4000000, "condition": "recompute_q", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2763, "in_context_acc": 0.5526, "full_correct_count": 2122, "full_acc": 0.4244, "in_context_prob": 0.5509093414442781, "in_context_loss": 2.100303355483572, "full_prob": 0.04603901909917745, "full_loss": 5.358649403655529}
+completed_jobs 14 of 28
+{"stage": 4000000, "condition": "ablate_l1", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2524, "in_context_acc": 0.5048, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": 0.5037236337555573, "in_context_loss": 1.1451498421447353, "full_prob": 9.741799569310387e-05, "full_loss": 9.890819293117524}
+completed_jobs 15 of 28
+{"stage": 4000000, "condition": "ablate_l1", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2701, "in_context_acc": 0.5402, "full_correct_count": 9, "full_acc": 0.0018, "in_context_prob": 0.5330688107023946, "in_context_loss": 1.1130848138603826, "full_prob": 0.00014197521665902, "full_loss": 10.56103258318901}
+completed_jobs 16 of 28
+{"stage": 8000000, "condition": "baseline", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2825, "in_context_acc": 0.565, "full_correct_count": 2689, "full_acc": 0.5378, "in_context_prob": 0.5640675441206943, "in_context_loss": 5.529660036088366, "full_prob": 0.40594354217492085, "full_loss": 6.105479924436845, "baseline_log_difference": 0.0}
+completed_jobs 17 of 28
+{"stage": 8000000, "condition": "baseline", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 4219, "in_context_acc": 0.8438, "full_correct_count": 4178, "full_acc": 0.8356, "in_context_prob": 0.8407718022833527, "in_context_loss": 0.9268571889254217, "full_prob": 0.7241324735714282, "full_loss": 1.2023815910385223, "baseline_log_difference": 0.0}
+completed_jobs 18 of 28
+{"stage": 8000000, "condition": "preserve_qkv", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2822, "in_context_acc": 0.5644, "full_correct_count": 2621, "full_acc": 0.5242, "in_context_prob": 0.5630352846926758, "in_context_loss": 5.720874299730844, "full_prob": 0.39535745644261905, "full_loss": 6.382678442078084}
+completed_jobs 19 of 28
+{"stage": 8000000, "condition": "preserve_qkv", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 4216, "in_context_acc": 0.8432, "full_correct_count": 4150, "full_acc": 0.83, "in_context_prob": 0.8403680091640101, "in_context_loss": 0.9402003844706672, "full_prob": 0.6915397650192088, "full_loss": 1.3083812494135927}
+completed_jobs 20 of 28
+{"stage": 8000000, "condition": "recompute_k", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2544, "in_context_acc": 0.5088, "full_correct_count": 1389, "full_acc": 0.2778, "in_context_prob": 0.5059329264799493, "in_context_loss": 2.170874632166804, "full_prob": 0.10399951512192665, "full_loss": 4.749440333005786}
+completed_jobs 21 of 28
+{"stage": 8000000, "condition": "recompute_k", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2807, "in_context_acc": 0.5614, "full_correct_count": 2320, "full_acc": 0.464, "in_context_prob": 0.5592219573767455, "in_context_loss": 1.8535725779105363, "full_prob": 0.22596556470761733, "full_loss": 3.4205152366913856}
+completed_jobs 22 of 28
+{"stage": 8000000, "condition": "recompute_v", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2582, "in_context_acc": 0.5164, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": 0.4985504613667086, "in_context_loss": 1.8764053702917358, "full_prob": 1.2825942335706664e-05, "full_loss": 12.914781971549989}
+completed_jobs 23 of 28
+{"stage": 8000000, "condition": "recompute_v", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2820, "in_context_acc": 0.564, "full_correct_count": 5, "full_acc": 0.001, "in_context_prob": 0.5592770533198566, "in_context_loss": 1.470630199534579, "full_prob": 0.00021687379493712374, "full_loss": 12.255304744195938}
+completed_jobs 24 of 28
+{"stage": 8000000, "condition": "recompute_q", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2729, "in_context_acc": 0.5458, "full_correct_count": 2572, "full_acc": 0.5144, "in_context_prob": 0.5470384634000018, "in_context_loss": 6.0360611734923175, "full_prob": 0.40223033785059914, "full_loss": 6.615516238902882}
+completed_jobs 25 of 28
+{"stage": 8000000, "condition": "recompute_q", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 4064, "in_context_acc": 0.8128, "full_correct_count": 3982, "full_acc": 0.7964, "in_context_prob": 0.8093062163000495, "in_context_loss": 1.1068199969624948, "full_prob": 0.6431269942152384, "full_loss": 1.5495428970632144}
+completed_jobs 26 of 28
+{"stage": 8000000, "condition": "ablate_l1", "evaluator": "icl", "count": 5000, "in_context_correct_count": 2537, "in_context_acc": 0.5074, "full_correct_count": 0, "full_acc": 0.0, "in_context_prob": 0.5052252445308258, "in_context_loss": 2.072811028123132, "full_prob": 4.909459557616884e-05, "full_loss": 12.06532229976654}
+completed_jobs 27 of 28
+{"stage": 8000000, "condition": "ablate_l1", "evaluator": "iwl_copy_avail", "count": 5000, "in_context_correct_count": 2701, "in_context_acc": 0.5402, "full_correct_count": 4, "full_acc": 0.0008, "in_context_prob": 0.5378523440912221, "in_context_loss": 1.557838349711192, "full_prob": 0.00020993642440351968, "full_loss": 12.321214724445342}
+completed_jobs 28 of 28

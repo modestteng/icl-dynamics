@@ -1,0 +1,1 @@
+2026-10-02 user explicitly selected: 按论文定义修正排列并继续主实验（推荐）. Preserve upstream source and record differences.

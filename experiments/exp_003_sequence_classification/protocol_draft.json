@@ -1,0 +1,21 @@
+{
+  "objective": "Estimate sample-specific training influence on ICL and CIWL abilities, not model preference or mutually exclusive solvability",
+  "candidate_pool": "first 10M original sequences, IDs[0,10000000)",
+  "pilot_sequences": 1000000,
+  "pilot_selection": "first1M within frozen candidate pool",
+  "data_recovery": "exact author sampler batch32 and original PRNG schedule, verify at original 1M checkpoint",
+  "attribution_method": "normalized full-gradient local influence via JVP; actual author Adam group validation",
+  "training_formation_claim": "no causal per-sample label until controlled validation supports the proxy",
+  "scale_gate": "two selection seeds each show greater target loss reduction than random; LLM auxiliary review; no10M expansion before completed pilot review",
+  "reference": "coopetition paper sections2.3,5.2-5.3; training data influence literature TracIn",
+  "status": "completed pilot: exact replay and scoring validated; original loss gate passed; stable in_context_acc improvement not verified; no10M expansion",
+  "recording_unit": "one compact sequence-identifier/score row; not one model checkpoint",
+  "data_identity": "same frozen feature bank and original seed/configuration; replay means reconstruct original sampled sequence IDs, not draw a new dataset",
+  "checkpoints": [
+    2000000,
+    4400000,
+    8000000
+  ],
+  "frozen_protocol": "protocol.md",
+  "review_decision": "review_decision.json"
+}

@@ -1,0 +1,4 @@
+{
+  "training_saved_span_seconds": 4896.997220039368,
+  "span_method": "sum of segment configuration-write to last saved checkpoint timestamps; excludes interruption gap; approximate, unsaved pre-interruption work not included"
+}

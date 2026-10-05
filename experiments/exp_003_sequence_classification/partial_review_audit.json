@@ -1,0 +1,42 @@
+{
+  "scope": "proxy-score audit; no per-sample causal ground truth",
+  "checkpoints": {
+    "scores_00002000000": {
+      "audited_prefix": 401408,
+      "labels_match_frozen_rule": true,
+      "relative_score_is_not_probability": true,
+      "bygroup": {
+        "0": {
+          "count": 101381,
+          "exact_match_fraction": 0.04965427446957517,
+          "query_label_0_or_1_fraction": 8.877403063690435e-05,
+          "query_label_in_eval_1600_fraction": 0.12382990895729969,
+          "both_scores_positive_fraction": 0.1305471439421588
+        },
+        "1": {
+          "count": 137396,
+          "exact_match_fraction": 0.04902617252321756,
+          "query_label_0_or_1_fraction": 0.00036391161314739876,
+          "query_label_in_eval_1600_fraction": 0.12597164400710356,
+          "both_scores_positive_fraction": 0.2810853299950508
+        },
+        "2": {
+          "count": 162631,
+          "exact_match_fraction": 0.049350984744605884,
+          "query_label_0_or_1_fraction": 6.148889203165448e-05,
+          "query_label_in_eval_1600_fraction": 0.12774317319576217,
+          "both_scores_positive_fraction": 0.34196432414484323
+        }
+      },
+      "mean_scores_exact_match": [
+        0.12885957956314087,
+        0.9089053273200989
+      ],
+      "mean_scores_nonidentical": [
+        0.23900865018367767,
+        0.9419780373573303
+      ]
+    }
+  }
+}
+

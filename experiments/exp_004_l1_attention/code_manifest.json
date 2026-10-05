@@ -1,0 +1,14 @@
+{
+  "register_attention_task.ps1": "4b405842e6986d02c4d37cf1ba7d40a5b3e68de68a5e9c26a7248d6d3b46c88b",
+  "status.ps1": "90e4d3d3ef806070c006fe2c7b0b0c79540151f272a652bde16d1fc34e5f585b",
+  "sync_and_check.ps1": "b9e2eab728fc5415499ad9a40f08a51e0b1b4b2047e79bebd426a4c4a6f81969",
+  "plot_attention.py": "f3460a9936e6f92ee8fb61c6c6d3b1d3fd7686bc2cc331f2587723c73cc2c39b",
+  "run_attention_task.ps1": "edc36e5f9438283934af6a8f76e20922d745d58a5a2922eccbd1f780212f1fc8",
+  "inspect_remote.ps1": "18dadf0a5a9f80f47d68cb95a546f08fa41be9a860c3a0d729d0c96f0662a2f6",
+  "run_attention.sh": "5d5a41153eef4669e2e138c9a1ccde0461ae1ef1dee13d5beb54b362deaa342f",
+  "extract_attention.py": "2d754b7f054de0b360081cf1272f7a1f96eb54e5b50c32dbb36ab7984b81f696",
+  "resume.ps1": "ad7e3406217d97c06cdfb559155e8092b4a125b7e695bf268c75116e006d6245",
+  "protocol.md": "fa95b513c7b7c580c90debb67798a56668e12ddef1ab323450fd80c0a68f8931",
+  "author_reference/visualize_runs.py": "3a34820985ba1a900e0afc2bdd2e5589256e00e89e6fb99522ff6b125a224b5a",
+  "author_reference/plot_utils.py": "8ffe1094ca6f090244edb24959b993dc3391f0ed4ffaec73b73fa9187a35edf9"
+}

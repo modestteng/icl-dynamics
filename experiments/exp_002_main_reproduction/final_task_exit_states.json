@@ -1,0 +1,5 @@
+{
+  "code": 0,
+  "stdout": "[{\"state\":\"Ready\",\"task\":\"icl-dynamics-exp002-main\",\"lastResult\":143},{\"state\":\"Ready\",\"task\":\"icl-dynamics-exp002-close20m\",\"lastResult\":0}]\r\n",
+  "stderr": ""
+}

@@ -1,0 +1,5 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+#< CLIXML
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04"><S S="Error">_x001B_[31;1mException: _x001B_[0m_x000D__x000A_</S><S S="Error">_x001B_[31;1m_x001B_[36;1mLine |_x001B_[0m_x000D__x000A_</S><S S="Error">_x001B_[31;1m_x001B_[36;1m_x001B_[36;1m   3 | _x001B_[0m бн s-exp004-attention').State -eq 'Running') { _x001B_[36;1mthrow 'Already running'_x001B_[0m }_x001B_[0m_x000D__x000A_</S><S S="Error">_x001B_[31;1m_x001B_[36;1m_x001B_[36;1m_x001B_[0m_x001B_[36;1m_x001B_[0m_x001B_[36;1m     | _x001B_[31;1m                                               ~~~~~~~~~~~~~~~~~~~~~~~_x001B_[0m_x000D__x000A_</S><S S="Error">_x001B_[31;1m_x001B_[36;1m_x001B_[36;1m_x001B_[0m_x001B_[36;1m_x001B_[0m_x001B_[36;1m_x001B_[31;1m_x001B_[31;1m_x001B_[36;1m     | _x001B_[31;1mAlready running_x001B_[0m_x000D__x000A_</S></Objs>

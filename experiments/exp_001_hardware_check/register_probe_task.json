@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "\r\n\u001b[32;1mTaskName                 \u001b[0m\u001b[32;1m State\u001b[0m\r\n\u001b[32;1m--------                 \u001b[0m \u001b[32;1m-----\u001b[0m\r\nicl-dynamics-exp001-probe Ready\r\n{\"TaskName\":\"icl-dynamics-exp001-probe\",\"State\":4}\r\n\r\n",
+  "stderr": ""
+}
